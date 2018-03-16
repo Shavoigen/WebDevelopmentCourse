@@ -1,0 +1,90 @@
+body {
+    direction: rtl;
+    background-image: url(../images/texture-brick-wall-hd-wallpaper-1080p.jpg);
+    padding-top:5%;
+    font-family: 'Amatic SC', cursive;
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC&subset=hebrew');
+}
+#shadow{
+    border-radius: 40px 8px;
+    border-left: rgba(0, 0, 0, 0.76) solid 53px;
+    border-bottom: rgba(0, 0, 0, 0.76) solid 53px;
+    width:917px;
+    height: 545px;
+    margin:auto;
+}
+#container {
+    width:912px;
+    height:540px;
+    background-image:url(../images/wallpaper.jpg);
+    color:white;
+    border: #57351e solid 20px;
+    border-radius:10px;
+    padding-bottom: 5px;
+}
+h1 {
+    font-size: 56pt;
+    margin:2% 0 3% 13%;
+    text-align: center;
+    color: rgba(255, 248, 150, 0.69);
+    -webkit-transition: color 1s, font-size 1s;
+}
+h2 {
+    font-size: 32pt;
+    margin-bottom: 3%;
+    margin-right: 1%;
+    color: rgb(255, 186, 183);
+}
+h3 {
+    font-size:24pt;
+    margin-right:2%;
+    margin-bottom: 3%;
+}
+p {
+    font-size: 18pt;
+    margin-right:4%;
+}
+#border1 {
+    height: 100%;
+    border-right: rgba(50, 27, 10, 0.94) solid 8px;
+    border-top: rgba(50, 27, 10, 0.94) solid 5px;
+    border-bottom: rgba(184, 99, 37, 0.94) solid 8px;
+    bottom:20px;
+}
+#border2 {
+    height:100%;
+    width:100%;
+    padding-right:5%;
+}
+.sec {
+    float:right;
+    width:50%;
+    height:35%;
+    -webkit-transition: font-size 1s, color 1s;
+}
+.sec:hover{
+    font-size:56pt;
+    color: rgba(218, 255, 215, 0.45);
+}
+.edu {
+    float:right;
+}
+#kurs{
+    margin-right:10%;
+}
+.tra:hover {
+    -moz-transform: scale(1.1) rotate(5deg) skewX(2deg);
+    -webkit-transform: scale(1.1) rotate(5deg) skewX(2deg);
+    -o-transform: scale(1.1) rotate(5deg) skewX(2deg);
+    -ms-transform: scale(1.1) rotate(5deg) skewX(2deg);
+    transform: scale(1.1) rotate(5deg) skewX(2deg);
+}
+h1:hover{
+    color: #adfffc;
+    font-size:72pt;
+}
+.comm {
+    float:right;
+    width:30%;
+    height:80%;
+}

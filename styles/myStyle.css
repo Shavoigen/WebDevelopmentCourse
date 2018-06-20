@@ -1,0 +1,2332 @@
+
+body{
+    direction: rtl;
+    background: url(../images/home/cheese-21500.jpg) no-repeat center top fixed;
+    background-size:100%;
+}
+/*-------Header-------*/
+/*logo*/
+#logo_img{
+    height:160px;
+    width:160px;
+    position:absolute;
+    right: 7%;
+    top: 45px;
+}
+#logo_img_content{
+    height:160px;
+    width:160px;
+    position:absolute;
+    right: 7%;
+    top: 95px;
+}
+#logo{
+    position:absolute;
+    right: 4%;/*to change*/
+    top: 0;
+}
+
+
+/*skip to content*/
+#skipnav{
+    border: rgb(255, 252, 204);
+    position:relative;
+    z-index: -9999;
+    background: rgb(255, 252, 204);
+    width:150px;
+    height:30px;
+    text-align: center;
+    color: rgb(67, 35, 22);
+}
+#skipnav:focus{
+    font-size: 20pt;
+    position: relative;
+    z-index: 9999;
+    right: 10px;
+}
+
+
+/*containers*/
+#wide{
+    position:relative;
+}
+#navigation_bar_1024{
+    width:100%;
+    height: 62px;
+    background-color: rgb(67, 35, 22);
+}
+#navigation_bar_960{
+    width: 960px;
+    position:relative;
+    margin: 0 auto;
+    height: 62px;
+}
+#below_nav_960{
+    width:960px;
+    height:inherit;
+    margin: 0 auto;
+    text-align: center;
+}
+#nav{
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: 9999;
+}
+#below_nav_1024{
+    width: 100%;
+    height: 124px;
+    background: rgb(255, 252, 204);
+    margin-bottom:50px;
+}
+
+header #nav>nav>ul>li{
+    display: inline-block;
+    float:right;
+}
+header #nav li ul{
+    display: none;
+    position:absolute;
+}
+header nav>ul li a {
+    display: block;
+    background-color: rgb(67, 35, 22);
+    color: rgb(237, 211, 110);
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+header #nav > nav > ul > li > ul > li {
+    border-top: white 1px solid;
+}
+#header_trip{
+    margin-right: 30px;
+}
+#below_nav_text{
+    font-size:26pt;
+    display: inline-block;
+    margin: 44px 170px 0 0;
+    color: rgb(67, 35, 22);
+}
+#below_nav_text span{
+    font-weight: bold;
+}
+#selected_page{
+    background: rgb(87, 87, 87);
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+#must_page_selected{
+    color:white;
+}
+.sub_nav{
+    width: 100%;
+    height:40px;
+    background:rgb(87, 87, 87);
+}
+.not_a_link_sub ul{
+    display:none;
+    position: absolute;
+}
+.sub_nav>div{
+    width:960px;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+}
+.sub_nav > div > ul {
+    width: 600px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 45px;
+}
+.not_a_link_sub{
+    width:150px;
+    float:right;
+    text-align: center;
+    color: white;
+    margin:10px 0;
+}
+.not_a_link_sub li{
+    background:rgb(87, 87, 87);
+    width:150px;
+    height:30px;
+    padding-top: 10px;
+
+    border-top: 1px solid white;
+}
+.not_a_link_sub a{
+    color:white;
+    text-decoration: none;
+    margin: auto;
+}
+.ezor {
+    background: rgb(87, 87, 87);
+    height: 30px;
+    width: 110px;
+    padding-top: 10px;
+    float: right;
+    text-align: center;
+    position:relative;
+    right:170px;
+}
+.ezor a {
+    color: white;
+}
+#jer{
+    margin-right:10px;
+}
+.type {
+    background: rgb(87, 87, 87);
+    height: 30px;
+    width: 110px;
+    padding-top: 10px;
+    float: right;
+    text-align: center;
+    position: relative;
+    left:102px;
+}
+.type a {
+    color: white;
+}
+.sub_nuv_links a{
+    color:white;
+}
+
+
+/*-------footer-------*/
+footer{
+    margin-top: 20px;
+}
+footer div{
+    width:100%;
+    height: 250px;
+}
+footer>nav>div>div{
+    width:100%;
+    height: 200px;
+    background: rgb(255, 252, 204);
+    padding-top: 20px;
+}
+footer>nav>div>div>div{
+    width:960px;
+    height:140px;
+    margin: 0 auto;
+}
+footer div>ul>li{
+    width: 140px;
+    height: 150px;
+    float: right;
+    list-style-type: none;
+    border-left: 1px rgb(67, 35, 22) solid;
+    margin-right: 15px;
+}
+p, footer a, a{
+    color:rgb(67, 35, 22);
+    text-decoration: none;
+}
+footer a{
+    position:relative;
+}
+#footer_last_li{
+    border: none;
+}
+footer div>ul>li li{
+    list-style-type: none;
+}
+footer p{
+    font-weight: bold;
+}
+#brown_bottom{
+    width: 100%;
+    height: 50px;
+    background: rgb(67, 35, 22);
+}
+
+
+/*-------homepage-------*/
+/*upper*/
+#container{
+    width:996px;
+    height: 1030px;
+    background: url("../images/home/bg.png") no-repeat;
+    background-size: 996px 1030px;
+    margin: 0 auto;
+}
+#container_hard{
+    width:996px;
+    height: 1460px;
+    background: url("../images/home/bg.png") no-repeat;
+    background-size: 996px 1460px;
+    margin: 0 auto;
+}
+#content{
+    display:inline-block;
+    width:960px;
+    height: auto;
+    margin: 5px 18px;
+}
+main>nav>ul{
+    width:960px;
+    height:1100px;
+    margin-top:10px;
+}
+main>nav>ul>li{
+    list-style-type: none;
+    width: 300px;
+    height:384px;
+    float:right;
+    margin:10px;
+}
+.brown_border_2, .new_block, #new_absolute, .brown_border_1, .brown_border, #about_white, #form, #recipe_section_1, #recipe_section_2,.hard_c_content, #att_list, #map, #map_info, .up_category{
+    -webkit-box-shadow: 6px 7px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 25px -4px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 25px -4px rgba(0,0,0,0.75);
+}
+.head{
+    width:140px;
+    height: 70px;
+    margin: 0 auto;
+}
+#cook_head{
+    background: url("../images/home/to_cook.png") no-repeat;
+    background-size: 140px auto;
+}
+#know_head{
+    background: url("../images/home/to_know.png") no-repeat;
+    background-size: 140px auto;
+}
+#travel_head{
+    background: url("../images/home/to_travel.png") no-repeat;
+    background-size: 140px auto;
+}
+#cook_img{
+    background: url("../images/home/recipes.jpg");
+    background-size: 325px 302px;
+}
+#container_size{
+    width:300px;
+    height:304px;
+}
+#container_size>ul>li{
+    width:138px;
+    height:145px;
+    float:right;
+}
+#know1{
+    background: url("../images/home/hard cheeses.jpg")no-repeat;
+    background-size: 145px 130px;
+    display: inline-block;
+}
+#know2{
+    background: url("../images/home/fresh.jpg")no-repeat;
+    background-size: 145px 125px;
+}
+#know3{
+    background: url("../images/home/mold.jpg")no-repeat;
+    background-size: 145px 125px;
+}
+#know4{
+    background: url("../images/home/soft.jpg")no-repeat;
+    background-size: 145px 145px;
+}
+#home_divide1{
+    margin: 0 0 10px 20px;
+}
+#home_divide2{
+    margin-bottom: 10px;
+ }
+#home_divide3{
+    margin-left: 20px;
+}
+#travel_img{
+    background: url("../images/home/goats.jpg") 0 -10px no-repeat;
+    background-size: 315px 280px;
+}
+.h3_wrap{
+    width: 100%;
+    height: 35px;
+    background: rgb(67, 35, 22);
+    display: inline-block;
+}
+.hover{
+    width: 100%;
+    height:267px;
+    background: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    opacity:  0;
+}
+.hover p{
+    text-align: -webkit-center;
+    background:rgba(0, 0, 0, 0.5);
+    font-size: 11pt;
+    color:white;
+    margin-top:95px;
+    height: 60px;
+    padding-top:15px;
+    display:inline-block;
+    text-align: center;
+}
+.know_hover{
+    width:100%;
+    height:110px;
+    background: rgba(0, 0, 0, 0.4);
+    display:none;
+}
+.know_p{
+    text-align: -webkit-center;
+    background:rgba(0, 0, 0, 0.5);
+    font-size: 11pt;
+    color:white;
+    margin-top:25%;
+    height: 50px;
+}
+
+
+/*lower*/
+#head_nav_li{
+    list-style-type: none;
+    width: 940px;
+    height: 550px;
+    /*float:right;*/
+    position: relative;
+}
+#new_head{
+    background: url("../images/home/new_and_interesting.png") no-repeat;
+    background-size: 180px auto;
+    width: 180px;
+    height:80px;
+}
+.new_block{
+    width:458px;
+    height:213px;
+    margin: 20px 0 10px 0;
+    border: 1px rgb(67, 35, 22) solid;
+    background: white;
+}
+.home_icon_size{
+    height:77px;
+    width:77px;
+    margin: 0 1px;
+    float: right;
+    background-color: rgb(255, 230, 153);
+}
+.home_icon_size_abs{
+    width:115px;
+    height:115px;
+    margin: 1px;
+    float: right;
+    background-color: rgb(255, 230, 153);
+}
+.home_icon_size_abs p{
+    font-size: 13pt;
+    text-align: center;
+}
+.below_h3{
+    height: 176px;
+    width: 458px;
+    display: inline-block;
+}
+.below_h3_right{
+    width:239px;
+    height:176px;
+}
+#below_h3_abs{
+    width: 458px;
+    height:413px;
+}
+#below_h3_abs ul{
+    margin-right: 3px;
+}
+.below_h3 ul{
+    margin-right: 1px;
+}
+#new_absolute{
+    position: absolute;
+    height:448px;
+    width:458px;
+    border: 1px rgb(67, 35, 22) solid;
+    left:0;
+    bottom:0;
+    background: white;
+}
+.home_icon_size > div{
+    height:45px;
+    width:45px;
+    margin:10px auto 3px auto;
+}
+.home_icon_size_abs > .abs_icon{
+     height:75px;
+     width:75px;
+     margin:15px auto 0 auto;
+ }
+.home_icon_size p{
+    font-size: 10pt;
+    text-align: center;
+}
+#home_new_icon_1_1{
+    background: url("../images/icons/chef.png") no-repeat;
+    -webkit-background-size: 40px 42px;
+    background-size: 40px 42px;
+}
+#home_new_icon_1_2{
+    background: url("../images/icons/watch.png") no-repeat;
+    -webkit-background-size: 40px 35px;
+    background-size: 40px 45px;
+}
+#home_new_icon_1_3{
+    background: url("../images/icons/dinner.png") no-repeat 0 6px;
+    -webkit-background-size: 45px auto;
+    background-size: 45px auto;
+}
+#home_new_icon_2_1{
+    background: url("../images/icons/pin.png") no-repeat;
+    -webkit-background-size: 36px 42px;
+    background-size: 36px 42px;
+}
+#home_new_icon_2_2{
+    background: url("../images/icons/calendar-with-a-clock-time-tools.png") no-repeat 5px 0;
+    -webkit-background-size: 40px 35px;
+    background-size: 40px 45px;
+}
+#home_new_icon_2_3{
+    background: url("../images/icons/list.png") no-repeat 6px 0;
+    -webkit-background-size: 32px auto;
+    background-size: 32px auto;
+}
+#home_new_icon_3_1{
+    background: url("../images/icons/cheese333.png") no-repeat 3px 0;
+    -webkit-background-size: 70px auto;
+    background-size: 70px auto;
+}
+#home_new_icon_3_2{
+    background: url("../images/icons/sheep.png") no-repeat 2px 0;
+    -webkit-background-size: 72px auto;
+    background-size: 72px auto;
+}
+#home_new_icon_3_3{
+    background: url("../images/icons/flag-black-shape.png") no-repeat 7px 0;
+    -webkit-background-size: 68px auto;
+    background-size: 68px auto;
+}
+#home_new_icon_3_4{
+    background: url("../images/icons/drop-silhouette.png") no-repeat 18px 0;
+    -webkit-background-size: 40px auto;
+    background-size: 40px auto;
+}
+.new_block_description{
+    width:239px;
+    height:64px;
+}
+.new_block_description p{
+    font-size: 14pt;
+    margin-top:34px;
+    text-align: center;
+}
+#new_absolute>a>section>div>div{
+    float:right;
+}
+#new_block_description_abs{
+    height:144px;
+    width: 150px;
+    margin: 34px auto 0 auto;
+}
+#new_block_description_abs h4{
+    font-size: 22pt;
+    text-align: center;
+    border-bottom: 2px rgb(67, 35, 22) solid;
+}
+#new_block_description_abs span{
+    font-size: 14pt;
+    margin-top:2px;
+    text-align: center;
+    margin-right: 35px;
+    color: rgb(67, 35, 22);
+}
+#new_img_1{
+    width:219px;
+    height:178px;
+    background: url("../images/home/eggplant_rolls.jpg") no-repeat;
+    background-size: 230px 178px;
+}
+#new_img_2{
+    width:219px;
+    height:178px;
+    background: url("../images/home/cow.jpg") no-repeat -10px 0;
+    background-size: 245px 178px;
+}
+#new_img_3{
+    width:219px;
+    height:413px;
+    background: url("../images/home/manchego.jpg") no-repeat -100px 0;
+    background-size: 500px 413px;
+}
+.new_block>section>div>div{
+    float:right;
+}
+.new_img_hover{
+    background:white;
+    display: none;
+    position: absolute;
+    width:219px;
+    height:178px;
+    right:240px;
+    top:136px;
+}
+.new_img_hover_2{
+    background:white;
+    display: none;
+    position: absolute;
+    width:219px;
+    height:178px;
+    right:240px;
+    top:371px;
+}
+.new_img_hover_3{
+    background:white;
+    display: none;
+    position: absolute;
+    width:219px;
+    height:413px;
+    right:239px;
+    top:35px;
+}
+#new_map{
+    background: url("../images/home/map_bl.png") no-repeat 100%;
+    background-size: 250px 200px;
+}
+#new_map p{
+    font-size: 12pt;
+    color:white;
+    text-align: right;
+    position:absolute;
+    left:16px;
+    top:-33px;
+}
+.new_img_hover p , .new_img_hover_2 p{
+    font-size:25pt;
+    text-align: center;
+    margin-top: 70px;
+}
+.new_img_hover_2 p{
+    margin-top: 45px;
+}
+.new_img_hover_3 p{
+    font-size:30pt;
+    text-align: center;
+    margin-top: 176px;
+}
+#head_nav_li li div p{
+    font-weight: bold;
+}
+
+
+/*--------------interactions------------*/
+/*header*/
+header #nav>nav>ul>li:hover > ul{
+    display: block;
+}
+header #nav>nav>ul>li>ul>li:hover > ul{
+    display: block;
+    right:120px;
+    bottom:0;
+}
+header #nav>nav>ul>li>ul>li:hover > ul li{
+    border-top: white 1px solid;
+}
+header #nav>nav>ul>li>:hover > a{
+    color: white;
+}
+.not_a_link_sub:hover>ul{
+    display:block;
+    margin-top:14px;
+    position:relative;
+}
+
+#container_size li:hover> a .know_hover{
+    display:inline-block;
+}
+.home_icon_size:hover, .home_icon_size_abs:hover{
+    background:white;
+}
+
+/*general*/
+a:hover{
+    text-decoration: underline;
+}
+*:focus{
+    outline: 3px rgba(100, 100, 0, 0.8) solid;
+}
+
+
+
+
+
+/*-------general-------*/
+h3{
+    text-align: center;
+    color: rgb(238, 211, 100);
+    font-size: 11pt;
+    margin-top: 10px;
+}
+h1, aside h2, #hard_c_and_semi_hard h2, #hard_c_and_semi_hard h2{
+    font-family: "Dorian CLM", sans-serif;
+    font-size: 16pt;
+    color: rgb(67, 35, 22);
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+h2, h3, h4, a, p{
+    font-family: Rubik,sans-serif;
+    font-weight: normal;
+}
+aside{
+    margin-top: 20px;
+}
+
+.general_aside{
+    width:956px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/*not active*/
+.notActive {
+    cursor: not-allowed;
+}
+.notActiveGrey {
+    cursor: not-allowed;
+    color:grey;
+}
+
+/*bread crumbs-->*/
+#bread_1024{
+    width:100%;
+}
+#bread_1024>div{
+    width:960px;
+    margin: 0 auto;
+}
+#bread{
+    background: rgba(255, 255, 255, 0.7);
+    width: fit-content;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    margin-right: 20px;
+    color:black;
+    padding: 6px 20px 0 20px;
+}
+.bread_crumbs a{
+    color:black;
+}
+.bread_crumbs{
+    display: inline-block;
+    font-family: Rubik, sans-serif;
+    color: rgb(67, 35, 22);
+}
+.bread_crumbs:after{
+    content: " >";
+}
+.bread_crumbs:last-child:after{
+    content: "";
+}
+
+
+/*----------------------CONTENT PAGES------------------------*/
+/*-------recipe-------*/
+/*sections*/
+#recipe_container{
+    width:940px;
+    height:auto;
+    margin: 0 auto;
+}
+#recipe_section_1{
+    width: 936px;
+    height: 299px;
+    border: 2px rgb(67, 35, 22) solid;
+    background: white;
+    position:relative;
+    margin: 0 auto;
+}
+#recipe_section_2{
+    width: 936px;
+    height: auto;
+    border: 2px rgb(67, 35, 22) solid;
+    background: white;
+    margin: 15px auto 0 auto;
+}
+
+/*top/first section*/
+#recipe_section_1_content{
+    width:900px;
+    height: 299px;
+    margin: 0 auto;
+}
+#recipe_top_ul_wrapper{
+    height:299px;
+    width: 330px;
+    margin-right:70px;
+    float: right;
+}
+#recipe_section_1>div>div{
+    float: right;
+}
+#recipe_section_1 li{
+    list-style-type: none;
+    float:right;
+    margin:80px 10px;
+    width: 90px;
+    height: 150px;
+}
+.icon_text_bold{
+    font-weight: bold;
+}
+#recipe_section_1 p, #recipe_section_2 .recipe_step p, .circle p, .att_info li li{
+    text-align: center;
+    font-size:10pt;
+    height: 30px;
+    width: 100%
+}
+#recipe_container h2,#recipe_container h3, #preparation h3, .att_info li li:first-child{
+    color: rgb(67, 35, 22);
+    font-family: Rubik, sans-serif;
+    font-weight: bold;
+}
+#first_eggplant_img{
+    background: url("../images/recipe/dish_top.png") no-repeat -30px 20px;
+    background-size: 400px;
+    width: 400px;
+    height: 299px;
+    margin-right:50px;
+}
+/*icons*/
+.recipe_icon_size{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 5px auto;
+}
+#recipe_icon_1{
+    background: url("../images/icons/chef.png") no-repeat;
+    background-size: 60px;
+}
+#recipe_icon_2{
+    background: url("../images/icons/watch.png") no-repeat 5px 0;
+    background-size: 50px;
+}
+#recipe_icon_3{
+    background: url("../images/icons/dinner.png") no-repeat 0 18px;
+    background-size: 60px;
+}
+
+/*second section*/
+#eggplat_bg{
+    background: url("../images/recipe/eggplant-1344610_1280.jpg") no-repeat 0 -150px;
+    -webkit-background-size: 940px 700px;
+    background-size: 940px 700px;
+    width: 100%;
+    height: 338px;
+}
+#eggplat_bg > div{
+    width: 517px;
+    height:210px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 68px;
+    display:inline-block;
+}
+#eggplat_bg> div > P{
+    color:white;
+    text-align: justify;
+    margin: 7%;
+    font-size: 13pt;
+    line-height: 17pt;
+}
+#eggplat_bg span{
+    font-weight: bold;
+    font-size: 20pt;
+}
+/*ingredients*/
+#ingredients_wrapper{
+    width: 100%;
+    height:450px;
+
+}
+#ingredients_wrapper>div{
+    float:right;
+}
+#cooking_mice{
+    background: url("../images/recipe/mouse4.png") no-repeat;
+    background-size: 564px 500px;
+    width: 501px;
+    height: 450px;
+}
+#ingredients {
+    background: url("../images/recipe/Reciept.png") no-repeat 60px;
+    background-size: 376px 350px;
+    width: 434px;
+    height: 450px;
+}
+#ingredients>section>div{
+    margin: 125px 0 0 60px;
+    text-align:center;
+}
+#ingredients>section>div ul{
+    list-style-type: none;
+    display:inline-block;
+    line-height: 17pt;
+    font-size: 13pt;
+}
+#ingredients h2{
+    margin:20px 0;
+    font-weight: bold;
+    font-size:  13pt;
+}
+#ingredients a{
+    color: blue;
+}
+/*preparation*/
+#preparation{
+    width:90%;
+    height: auto;
+    padding: 0 5%;
+}
+#preparation h2{
+    font-size: 14pt;
+    margin: 10px 0;
+}
+#preparation ol,.att_info li{
+    list-style-type: none;
+}
+#preparation > section > ol > li{
+    margin: 15px 0;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+#preparation ol li ol{
+    margin-top: 10px;
+}
+#preparation ol li .recipe_step{
+    height:205px;
+    width: 30%;
+    float:right;
+    margin: 0 1.5%;
+}
+.recipe_explanation{
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+}
+.video{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+video,#recipe_fin_dish{
+    border: rgb(67,35,22) solid 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.circle{
+    background: rgb(255, 204, 102);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    display: inline-block;
+    width: 45px;
+    height:45px;
+    position:absolute;
+    right: -21px;
+    top: -21px;
+    z-index: 9999;
+}
+#recipe_section_2 .video .circle>p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20pt;
+    font-family: Rubik, sans-serif;
+}
+#recipe_last_li{
+    display:inline-block;
+    height: auto;
+    width:100%;
+    margin-top: 30px;
+}
+#recipe_fin_mice{
+    width: 40%;
+    height: 375px;
+    background: url("../images/recipe/mouse 5.png")no-repeat 48% 60%;
+    background-size:185% 150%;
+    display: inline-block;
+    position:relative;
+}
+#recipe_fin_mice p{
+    position:absolute;
+    bottom:50px;
+    right: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13pt;
+}
+#recipe_fin_dish{
+    width: 57%;
+    height: 375px;
+    background: url("../images/recipe/245A4954.jpg") no-repeat;
+    background-size: 500px 375px;
+    display: inline-block;
+    border-radius: 10px;
+}
+#recipe_fin_dish_p{
+    font-size: 35pt;
+    color:white;
+    font-weight: bold;
+    margin: 320px 5px 0 0;
+    letter-spacing: 3px;
+}
+.general_aside li{
+    list-style-type: none;
+    float:right;
+    width: 218px;
+    height:218px;
+    margin: 0 10px;
+}
+#aside_recipe_id_1, #aside_recipe_id_2, #aside_recipe_id_3, #aside_recipe_id_4{
+    margin:0;
+}
+
+/*hard cheese*/
+#hard_opener{
+    width:938px;
+    height: 620px;
+    background: white;
+}
+#hard_c_img1{
+    height: 310px;
+    width: 938px;
+    background: url("../images/hard/firm.jpg") no-repeat 0 40%;
+    background-size: 938px auto;
+    position: relative;
+}
+#hard_text_wrapper{
+    height:310px;
+    width: 938px;
+}
+#hard_c_text1{
+    height:310px;
+    width: 560px;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+}
+#hard_c_text1 h2{
+    font-size: 14pt;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+#hard_c_text1 p{
+    font-size: 13pt;
+    color:white;
+    font-weight: normal;
+    text-align: right;
+    margin: 7% 5%;
+    line-height: 16pt;
+}
+#hard_text_2{
+    width: 60%;
+    height:100%;
+    float:right;
+}
+#hard_text_2 h2{
+    color: rgb(67,35,22);
+    font-size: 14pt;
+    margin-top: 5%;
+    font-weight: bold;
+    text-align:center;
+}
+#hard_text_2 p, .hard_c_p p{
+    color: rgb(67,35,22);
+    font-size: 13pt;
+    line-height: 16pt;
+    margin-top: 5%;
+}
+#pic1{
+    width: 20%;
+    height:100%;
+    background: url("../images/hard/mouse3.png") no-repeat;
+    float:right;
+}
+#pic2{
+    width: 20%;
+    height:100%;
+    background: url("../images/hard/mouse2.png") no-repeat 0 100px;
+    float:right;
+}
+#hard_c_and_semi_hard{
+    width:960px;
+    height: 1000px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.hard_half{
+    width: 50%;
+    float: right;
+}
+.hard_c_content{
+    width:460px;
+    margin: 0 10px;
+    border: rgb(67,35,22) solid 1px;
+    background: white;
+}
+#hard_c_img_explanation{
+    width: 100%;
+    height: 254px;
+    background: url("../images/hard/hard.jpg") no-repeat;
+    background-size: 100%;
+}
+#semi_hard_c_img_exp{
+    width: 100%;
+    height: 254px;
+    background: url("../images/hard/semi_hard.jpg") no-repeat;
+    background-size: 100%;
+}
+.hard_c_p{
+    margin: 5%;
+}
+.choose_country{
+    font-weight: bold;
+    font-size: 16pt;
+    margin-right: 10px;
+}
+.countries_list{
+    width: 420px;
+    height:124px;
+    margin: 10px 20px;
+}
+.countries_list li{
+    height: 62px;
+    width: 56px;
+    float: right;
+    margin: 2px;
+}
+.countries_list li div{
+    width:100%;
+    height:42px;
+}
+.countries_list p{
+    height:14px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.it{
+    background: url("../images/icons/italy.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.uk{
+    background: url("../images/icons/england.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.nd{
+    background: url("../images/icons/holland.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.gr{
+    background: url("../images/icons/greece.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+#eg{
+    background: url("../images/icons/egypt.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.sp{
+    background: url("../images/icons/spain.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.pr{
+    background: url("../images/icons/portugal.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+#cr{
+    background: url("../images/icons/croatia.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.sw{
+    background: url("../images/icons/sweeden.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.sz{
+    background: url("../images/icons/swiss.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.bl{
+    background: url("../images/icons/bulgary.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+#dn{
+    background: url("../images/icons/danemark.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+#ng{
+    background: url("../images/icons/hungary.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+.fr{
+    background: url("../images/icons/france.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+#il{
+    background: url("../images/icons/israel.png") no-repeat 0 5px;
+    background-size: 100%;
+}
+
+#country_selected ul{
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: absolute;
+    width: 604px;
+    height: 136px;
+    padding:10px;
+    background: rgba(200, 200, 200, 0.8);
+}
+#country_selected:hover>ul, #country_selected:focus>ul{
+    visibility: visible;
+    opacity: 1;
+    position:absolute;
+}
+#country_selected:focus>ul li:focus{
+    visibility: visible;
+    opacity: 1;
+}
+#country_selected>ul::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: 277px;
+    border: 5px solid ;
+    border-color: transparent transparent rgba(200, 200, 200, 0.8) transparent;
+}
+#country_selected li{
+    width: 139px;
+    height:134px;
+    margin: 0 5px;
+    border: rgb(67,35,22) solid 1px;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+#country_selected li:hover{
+    width: 135px;
+    height:130px;
+    border: #c58d67 3px solid;
+}
+#country_selected ul div div{
+    width: 100%;
+    height:50px;
+    background: rgb(67,35,22);
+    position: absolute;
+    bottom:0;
+}
+#country_selected ul p {
+    text-align: center;
+    color: rgb(238, 211, 100);
+    font-size: 11pt;
+    margin-top: 8px;
+    display: inline-block;
+    line-height: 13pt;
+}
+#spain_manchego{
+    background: url("../images/hard/manchego.jpg") no-repeat ;
+    -webkit-background-size: 100%;
+    background-size: 100% 90%;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+}
+#spain_roncal{
+    background: url("../images/hard/Roncal.jpg") no-repeat -10px -15px;
+    -webkit-background-size: 100%;
+    background-size: 120% 105%;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+}
+#spain_idiezebal{
+    background: url("../images/hard/Idiazabal.jpg") no-repeat 0 -5px;
+    -webkit-background-size: 100%;
+    background-size: 100% 90%;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+}
+#spain_mahon{
+    background: url("../images/hard/mahon.jpg") no-repeat 0 -8px;
+    -webkit-background-size: 100%;
+    background-size: 100% 90%;
+    width: 100%;
+    height:100%;
+    display: inline-block;
+}
+
+/*-------north-------*/
+#container_north{
+    width:996px;
+    height: 810px;
+    background: url("../images/home/bg_north.png") no-repeat;
+    background-size: 996px 810px;
+    margin: 0 auto;
+}
+#north_page_wrap{
+    width:940px;
+    height: 650px;
+    margin: 0 10px;
+    position: relative;
+}
+#att_list{
+    width:218px;
+    height:100%;
+    border: black solid 1px;
+    background: rgb(67,35,22);
+    display: inline-block;
+    margin: 0 0 10px 10px;
+}
+.att_text_list{
+    height: 43px;
+    width: 100%;
+    list-style-type: none;
+}
+#att_list a{
+    margin: 14px 20% 0 0;
+    display: inline-block;
+    font-size: 14pt;
+}
+/*the map picture*/
+#map p{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 14pt;
+}
+#map{
+    width: 700px;
+    height: 424px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
+    border: rgb(67,35,22) solid 1px;
+}
+/*bottom info section*/
+#map_info{
+    height: 196px;
+    width: 700px;
+    margin: 10px 10px 0 0;
+    background: white;
+    display: inline-block;
+    border: rgb(67,35,22) solid 1px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+.att_info{
+    width:570px;
+    height: 186px;
+    display: none;
+    position: absolute;
+    right:70px;
+    top:10px;
+}
+.att_info>ul>li{
+    width: 80px;
+    height: 150px;
+    margin: 18px 10px;
+    float: right;
+}
+.att_info li li{
+    width: 100%;
+    height:30px;
+}
+#choose_place_mouse{
+    background: url("../images/north/mouse1.png") no-repeat -30px 0;
+    background-size: 150%;
+    position:absolute;
+    width:150px;
+    height:80%;
+    left:20px;
+    top: 20px;
+}
+.att_info>ul>li:last-child{
+    background: url("../images/schwartzman/customLogo.png") no-repeat 0 -3px;
+    -webkit-background-size: 90%;
+    background-size: 90%;
+    width: 250px;
+    margin-top: 12px;
+}
+.att_info>ul>li:nth-child(1) li:nth-child(2){
+    background: url("../images/icons/list.png")no-repeat 10px 1px;
+    background-size: 50px;
+    height: 80px;
+}
+.att_info>ul>li:nth-child(2) li:nth-child(2){
+    background: url("../images/icons/watch.png")no-repeat 10px 1px;
+    background-size: 57px;
+    height: 80px;
+}
+.att_info>ul>li:nth-child(3) li:nth-child(2){
+    background: url("../images/icons/pin.png")no-repeat 19px 5px;
+    background-size: 43px;
+    height: 80px;
+}
+/*hides on hover*/
+#map_info p{
+    font-size: 25pt;
+    text-align: center;
+    margin-top:80px;
+}
+#att_default p{
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 72px;
+    right: 215px;
+}
+/*map pin drops*/
+.pin_drop{
+    width:37px;
+    height:40px;
+    position: absolute;
+    z-index: 1;
+    list-style-type: none;
+    display: inline-block;
+    background: url("../images/north/pin_drop.png") no-repeat;
+}
+.pin_drop div{
+    visibility: hidden;
+    opacity: 0;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 99999;
+    bottom: 125%;
+    left: 98%;
+    margin-left: -60px;
+    transition: opacity 0.3s;
+}
+.pin_drop div::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -28px;
+    border: 5px solid;
+    border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+}
+.pin_drop:hover div {
+    visibility: visible;
+    opacity: 1;
+}
+.pin_drop a{
+    width: 37px;
+    height: 40px;
+}
+#pin1{
+    left: 342px;
+    top: 67px;
+}
+#pin2{
+    background-size: 25px 37px;
+    left: 221px;
+    top: 94px;
+}
+#pin3{
+    background-size: 25px 37px;
+    left: 250px;
+    top: 210px;
+}
+#pin4{
+    background-size: 25px 37px;
+    left: 370px;
+    top: 157px;
+}
+#pin5{
+    background-size: 25px 37px;
+    left: 372px;
+    top: 117px;
+}
+#pin6{
+    background-size: 25px 37px;
+    left: 250px;
+    top: 150px;
+}
+#pin7{
+    background-size: 25px 37px;
+    left: 286px;
+    top: 210px;
+}
+#pin8{
+    background-size: 25px 37px;
+    left: 222px;
+    top: 158px;
+}
+#pin9{
+    background-size: 25px 37px;
+    left: 302px;
+    top: 98px;
+}
+#pin10{
+    background-size: 25px 37px;
+    left: 160px;
+    top: 204px;
+}
+#pin11{
+    background-size: 25px 37px;
+    left: 337px;
+    top: 99px;
+}
+#pin12{
+    background-size: 25px 37px;
+    left: 200px;
+    top: 141px;
+}
+#pin13{
+    background-size: 25px 37px;
+    left: 343px;
+    top: 166px;
+}
+#pin14{
+    background-size: 25px 37px;
+    left: 364px;
+    top: 86px;
+}
+#pin15{
+    background-size: 25px 37px;
+    left: 320px;
+    top: 147px;
+}
+a:focus div{
+    border: rgb(238, 211, 100) solid 1px;
+}
+/*contactUs*/
+#form{
+    width: 932px;
+    height: 465px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 4px solid rgb(67, 35, 22);
+    margin: 10px auto;
+    border-radius:20px;
+    position:relative;
+    padding-top:20px;
+}
+#connect_mouse{
+    background: url("../images/home/connect_mouse.png") no-repeat;
+    background-size: 100%;
+    width: 285px;
+    height: 320px;
+    position:absolute;
+    left: 50px;
+    top: 20px;
+}
+label{
+    display:block;
+    margin: 10px 56px 0 auto;
+    width:420px;
+    height: 80px;
+    font-size:20pt;
+}
+
+input[type ='text'] ,textarea , input[type ='checkbox'], input[type="submit"] {
+    display:block;
+    margin-bottom:15px;
+    width: 420px;
+    font-size: 16pt;
+    border-radius: 5px;
+    border: rgb(67,35,22) 1px solid;
+    background: white;
+}
+input[type="submit"]{
+    height: 60px;
+    width: 50%;
+    margin: 40px auto 0 auto;
+    background: rgba(242, 131, 48, 0.30);
+}
+label[for="like"]{
+    height:50px;
+    display:block;
+    position:relative;
+}
+#like{
+    display: inline-block;
+    height:30px;
+    width:30px;
+    margin-top:20px;
+}
+
+
+
+
+
+
+
+#alc_nav {
+    position:relative;
+    top:0;
+}
+.high_container {
+    height: 400px;
+    width: 960px;
+    margin: 0;
+}
+.brown_border {
+    width: 218px;
+    height: 400px;
+    border: 1px solid rgb(67, 35, 22);
+    float: right;
+    margin: 0 10px;
+}
+.h3_wrap h2, #att_list a{
+    text-align: center;
+    color: rgb(238, 211, 100);
+    font-size: 11pt;
+    margin-top: 10px;
+}
+.lobby_poster {
+    width: 218px;
+    height: 365px;
+    background-repeat: no-repeat;
+
+}
+#main_dish {
+    background: url(../images/recommand/broccoli-1804446_1280.jpg) 25% 50%;
+    background-size: 255%;
+}
+#sweets {
+    background: url(../images/recommand/cheesecake-1578694_1280.jpg) 55% 50%;
+    background-size: 265%;
+}
+#sandwitch {
+    background: url(../images/recommand/breakfast-2408033_1280.jpg) 100% 50%;
+    background-size: 310%;
+}
+#alcohol {
+    background: url(../images/recommand/picnic-787117_1280.jpg) 55% 50%;
+    background-size: 255%;
+}
+.brown_border_hover, .brown_border_hover_2_small, .brown_border_hover_2{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.brown_border_hover_2_small{
+    display: inline-block;
+}
+.brown_border:hover .brown_border_hover, .brown_border_2:hover .brown_border_hover_2_small {
+    visibility:visible;
+    opacity:1;
+}
+.brown_border_hover ul {
+    background: rgba(0, 0, 0, 0.5);
+    height: auto;
+    font-size:11pt;
+    display: inline-block;
+    width: 218px;
+}
+#main_dish .brown_border_hover ul, #sweets .brown_border_hover ul{
+    margin-top:70px;
+}
+#sandwitch .brown_border_hover ul{
+    margin-top:110px;
+}
+#alcohol .brown_border_hover ul {
+    margin-top: 50px;
+}
+
+.brown_border_hover ul li{
+    height:30px;
+    padding-top:20px;
+
+}
+.brown_border_hover ul li:last-child{
+    padding-bottom: 20px;
+}
+
+.brown_border_hover ul li a {
+    color: white;
+    display: block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.brown_border_hover ul li a:hover{
+    font-size:13pt;
+}
+#attractions_n {
+    background: url(../images/trip/golan-1023403_1280.jpg) 15% 50%;
+    background-size: 230%;
+}
+
+#attractions_c {
+    background: url(../images/trip/city-3229028_1280.jpg) 55% 50%;
+    background-size: 260%;
+}
+
+#attractions_s {
+    background: url(../images/trip/dead-sea-1930735_1280.jpg) 50%;
+    background-size: 290%;
+}
+
+#attractions_j {
+    background: url(../images/trip/jerusalem-1120372_1280.jpg)50%;
+    background-size: 255%;
+}
+.brown_border_hover p {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    height:40px;
+    width: 218px;
+    color:white;
+    font-size:11pt;
+    margin-top:150px;
+    padding-top:20px;
+}
+.low_container {
+    height: 220px;
+    width: 960px;
+    margin: 0 0 20px 0;
+}
+.brown_border_1 {
+    width: 218px;
+    height: 218px;
+    border: 1px solid rgb(67, 35, 22);
+    float: right;
+    margin: 0 10px;
+
+}
+.brown_border_2 {
+    width: 298px;
+    height: 302px;
+    border: 1px solid rgb(67, 35, 22);
+    float: right;
+}
+#eggplant{
+    width:458px;}
+
+.lobby_small_poster {
+    width: 100%;
+    height: 183px;
+    background-repeat: no-repeat;
+}
+.small_poster_home {
+    width: 100%;
+    height: 267px;
+}
+.smaller_poster_home {
+    width: 100%;
+    height: 110px;
+}
+.small_home{
+    width:138px;
+    height:145px;
+}
+.brown_border_1:hover .brown_border_hover, .brown_border_2:hover .brown_border_hover_2, .brown_border_hover_2_small:hover {
+    visibility: visible;
+    opacity: 1;
+}
+.brown_border_1 .brown_border_hover p {
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-size: 11pt;
+    margin-top: 60px;
+    padding-top: 15px;
+}
+.brown_border_hover_2 p{
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    height:60px;
+    width: 298px;
+    color:white;
+    font-size:11pt;
+    margin-top:90px;
+    padding-top:20px;
+}
+
+#eggplant_pic {
+    background: url(../images/home/eggplant_rolls.jpg) 15% 55%;
+    background-size: 180%;
+}
+
+#pepper_pic {
+    background: url(../images/stuffed/1215818154_80ff8500f0_z.jpg) 55% 50%;
+    background-size: 260%;
+}
+#kishu_pic {
+    background: url(../images/stuffed/zucchini-1804460_960_720.jpg) 50%;
+    background-size: 255%;
+}
+
+
+#tomato_pic {
+    background: url(../images/stuffed/14940881930_636d2dc245_z.jpg) 40% 50%;
+    background-size: 220%;
+}
+
+#mashroom_pic {
+    background: url(../images/stuffed/4564837196_4be9a34db9_z.jpg) 50% 50%;
+    background-size: 180%;
+}
+#tzukini_pic {
+    background: url(../images/stuffed/27939429722_ea00f7e4fd_z.jpg) 60% 40%;
+    background-size: 170%;
+
+}
+#potato_pic {
+    background: url(../images/stuffed/3289115312_ac6e773c1e_b.jpg) 50% 50%;
+    background-size: 255%;
+}
+
+#below_nav_text_intern {
+    font-size: 26pt;
+    display: inline-block;
+    margin: 16px 170px 0 0;
+    color: rgb(67, 35, 22);
+}
+
+#below_nav_text_intern span {
+    font-weight: bold;
+}
+#logo_in_content_intern {
+    position: absolute;
+    right:4%;
+    top: 0;
+}
+#container_short {
+    width: 996px;
+    height: 600px;
+    background: url(../images/home/Atractions_RecieptsBG.png) no-repeat;
+    background-size: 996px 600px;
+    margin: 0 auto;
+}
+.up_category {
+    width: 940px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid rgb(67, 35, 22);
+    margin: 10px auto 30px auto;
+    border-radius: 20px;
+}
+.category {
+    width: 210px;
+    height: 300px;
+    float: right;
+    margin: 10px 10px;
+    display: inline-block;
+}
+#map_site h2 {
+    color: rgb(67, 35, 22);
+    text-align: center;
+    font-weight: 700;
+    font-size:14pt;
+}
+#map_site {
+    color: rgb(67, 35, 22);
+}
+
+.h3_out {
+    color: rgb(67, 35, 22);
+    text-align: center;
+    font-weight: 600;
+    font-size: 13pt;
+
+}
+.category h3 {
+    color: rgb(67, 35, 22);
+    text-align:inherit;
+    font-weight: 600;
+    font-size: 13pt;
+}
+#map_site h4 {
+    color: rgb(67, 35, 22);
+    text-align: initial;
+    font-weight: 500;
+    font-size: 12pt;
+    margin-top:10px;
+}
+.not_content {
+    font-weight: 700;
+    font-size: 14pt;
+    margin-right: 20px;
+}
+#container_long {
+     width: 996px;
+     height: 2635px;
+     background: url(../images/home/Long_BG.png);
+     background-size: 996px 2635px;
+     margin: 0 auto;
+ }
+#container_longer {
+    width: 996px;
+    height: 2785px;
+    background: url(../images/home/Long_BG.png);
+    background-size: 996px 2785px;
+    margin: 0 auto;
+}
+#about_white {
+    width: 940px;
+    height: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgb(67, 35, 22);
+}
+#about_pic{
+    width:940px;
+    height:300px;
+    background: url(../images/home/milk-1809238_1280.jpg) no-repeat 50%;
+    background-size:100%;
+}
+#about_content_BG
+{width:510px;
+    height:240px;
+    margin:0 auto;
+    background-color:black;
+    opacity:0.8;
+    text-align:right;
+    padding:30px;
+    font-size:13pt;
+    line-height:23px;
+}
+
+#about_content_BG p{
+    color:white;
+    margin-top:40px;
+}
+#about_content_first{
+    font-size:18pt;
+}
+#about_inf {
+    width: 940px;
+    height: 250px;
+    margin: 20px auto;
+    text-align: right;
+    line-height: 22px;
+    color: rgb(67, 35, 22);
+}
+.about_col_A {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right:59px;
+
+}
+.about_col_B {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right:20px;
+}
+.about_col1{
+    width:180px;
+    height:200px;
+    float:right;
+    margin:0 auto;
+
+}#about_inf ul li{
+     list-style-type:disc;
+     margin-right:40px;
+     margin-bottom:10px;
+ }
+#about_inf ul li a{
+    color:blue;
+}
+#about_dev_pages {
+    font-size: 13pt;
+    font-weight: 500;
+}
+#about_bottom{
+    width:940px;
+    height:250px;
+    margin:0 auto 40px auto;
+}
+.about_bottom_pic {
+    width: 410px;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right:45px;
+}
+.about_bottom_pic img {
+    width: 380px;
+    height: auto;
+}
+.about_bottom_pic p {
+    display:inline-block;
+    width:200px;
+    font-size:14pt;
+    font-weight:500;
+}
+.about_bottom_pic a {
+    font-size: 14pt;
+    color:blue;
+}
+#attribute{
+    width:auto;
+    float:left;
+    text-align:left;
+    font-size:9pt;
+    padding-left:59px;
+    line-height:20px;
+}
+#attribute ul li {
+    list-style-type:none;
+}
+#attribute ul li a,#hard_opener a, #hard_c_and_semi_hard a{
+    color: blue;
+}
+#attribute h2 {
+    font-weight:600;
+    font-size:10pt;
+}
+#container_odot {
+    width: 996px;
+    height: 1350px;
+    background: url("../images/home/bg.png") no-repeat;
+    background-size: 996px 1350px;
+    margin: 0 auto;
+}
+.piska_ptiha{
+    width:620px;
+    text-align:center;
+    margin:0 auto 20px auto;
+    font-weight:500;
+    font-size:13pt;
+}.piska_ptiha_north{
+     width:720px;
+ }
+/*manchego*/
+
+#second_h1 {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+    padding-top:10px;
+    border-top: 1px solid rgb(67, 35, 22);
+}
+#manchego_icon_1 {
+    background: url("../images/icons/sheep.png") no-repeat 0 3px;
+    background-size: 60px;
+}
+
+#manchego_icon_2 {
+    background: url("../images/icons/cheese333.png") no-repeat 5px 10px;
+    background-size: 50px;
+}
+
+#manchego_icon_3 {
+    background: url("../images/icons/drop-silhouette.png") no-repeat 11px 4px;
+    background-size: 35px;
+}
+#flag{
+    width:80px;
+    height:130px;
+    position:absolute;
+    left:60px;
+    top:86px;
+}
+#flag div p {
+    width:80px;
+    text-align:center;
+}
+
+#manchego_icon_4 {
+    background: url("../images/icons/spain.png") no-repeat;
+    background-size: 100%;
+    width:80px;
+
+
+
+}
+#manchego_img{
+    height:280px;
+    width:300px;
+    background-image:url(../images/manchego/man4_large.png);
+    background-repeat:no-repeat;
+    background-size:125%;
+    background-position:center;
+    float:right;
+    margin-top:10px;
+    margin-right:30px;
+}
+.manchego_pic1 {
+    width: 100%;
+    height: 264px;
+}
+
+.manchego_pic1 > div {
+    width: 490px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.manchego_pic1 > div > p {
+    color: white;
+    text-align: right;
+    margin: 7%;
+    font-size: 13pt;
+    line-height: 17pt;
+}
+
+.manchego_pic1 span {
+    font-weight: bold;
+    font-size: 20pt;
+}
+.manchego_article{
+    width:840px;
+    height:auto;
+    margin:40px auto;
+    overflow:hidden;
+}
+.in_manchego_part{
+    width:420px;
+    height:460px;
+    display:inline-block;
+}
+.manchego_p {
+    width:360px;
+    height:auto;
+    margin-bottom:50px;
+    line-height:20px;
+}
+.manchego_p h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(67, 35, 22);
+}
+#manchego_making{
+    background:url(../images/manchego/Making_manchego_cheese.jpg) no-repeat -210px -110px;
+    width:420px;
+    height:460px;
+    background-size:210%;
+    position:absolute;
+}
+#manch_2 {
+    background: url("../images/manchego/plate.jpg") no-repeat 0 -160px;
+    background-size: 100%;
+}
+#manch_1 {
+    background: url("../images/manchego/Krum.jpg") no-repeat 0 -350px;
+    background-size: 100%;
+}#manch_2 div{
+     width:515px;
+
+ }
+.in_manchego_part1 {
+    width: 420px;
+    height: 240px;
+    display: inline-block;
+    float:right;
+
+}
+.product_logo{
+    width:190px;
+    height:110px;
+    display:inline-block;
+    margin-right:16px;
+
+}
+.in_manchego_part1 a {
+    color: blue;
+}
+
+/*schwartzman*/
+#gad {
+    background: url(../images/manchego/GAD-LOGO-text-purpel-300x245-300x245.png) no-repeat center;
+    background-size: 70%;
+}
+
+#yakbes {
+    background: url(../images/manchego/201462220180409.png) no-repeat center;
+    background-size: 50%;
+}
+
+#dotan {
+    background: url(../images/manchego/download.png) no-repeat center;
+    background-size: 80%;
+}
+
+#pastor {
+    background: url(../images/manchego/quesos-el-pastor-logo.png) no-repeat center;
+    background-size: 80%;
+}
+#container_long1 {
+    width: 996px;
+    height: 2135px;
+    background: url(../images/home/Long_BG.png);
+    background-size: 996px 2135px;
+    margin: 0 auto;
+}
+#ibores {
+    background: url(../images/manchego/Ibores.jpg) no-repeat 55% 50%;
+    background-size: 120%;
+}
+#bito {
+    background: url(../images/manchego/bitto.jpg) no-repeat 100% 50%;
+    background-size: 150%;
+}
+#bofor {
+    background: url(../images/manchego/beaufort.jpg) no-repeat 55% 50%;
+    background-size: 120%;
+}
+#leister {
+    background: url(../images/manchego/leicester.jpg) no-repeat 10% 40%;
+    background-size: 135%;
+}
+
+#schwartzman_logo {
+    background: url("../images/schwartzman/customLogo.png") no-repeat center;
+    background-size: 80%;
+    width: 400px;
+    height: 299px;
+    margin-right: 80px;
+}
+#place_icon_1 {
+    background: url("../images/icons/list.png") no-repeat 10px 3px;
+    background-size: 40px;
+}
+
+#place_icon_2 {
+    background: url("../images/icons/calendar-with-a-clock-time-tools.png") no-repeat 7px 10px;
+    background-size: 50px;
+}
+
+#place_icon_3 {
+    background: url("../images/icons/pin.png") no-repeat 13px 4px;
+    background-size: 35px;
+}
+#old_pic {
+    background: url("../images/schwartzman/phoca_thumb_l_1921  .jpg") no-repeat -10px -190px;
+    background-size: 110%;
+    width: 100%;
+    height: 390px;
+}
+
+#old_pic > div {
+    width: 517px;
+    height: 170px;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: 110px;
+    display: inline-block;
+}
+
+#old_pic > div > P {
+    color: white;
+    text-align: justify;
+    margin: 7%;
+    font-size: 13pt;
+    line-height: 17pt;
+}
+
+#old_pic span {
+    font-weight: bold;
+    font-size: 20pt;
+}
+.in_place_part {
+    width: 420px;
+    height: 720px;
+    display: inline-block;
+    float:right;
+}
+.in_in_place_part{
+    width:410px;
+    height:278px;
+    margin-right:10px;
+
+}
+#museum {
+    width:410px;
+    height:576px;
+    background:url('../images/schwartzman/phoca_thumb_l__mg_4259_1  .jpg') no-repeat;
+    background-size:100%;
+}
+#girls {
+    background: url(../images/schwartzman/phoca_thumb_l_07330014.jpg) no-repeat -20px 0;
+    background-size: 110%;
+}
+#restourant {
+    background: url(../images/schwartzman/phoca_thumb_l_picture225.jpg) no-repeat -20px -20px;
+    background-size: 110%;
+    margin-top: 20px;
+}
+.in_place_part1 {
+    width: 420px;
+    height: 100px;
+    display: inline-block;
+    float: right;
+}
+.in_place_part h2 {
+    margin-top:20px;
+
+}
+#p2{
+    margin-right:10px;
+}
+#alto {
+    background: url(../images/schwartzman/image-100291.jpg) no-repeat 55% 50%;
+    background-size: 130%;
+}
+
+#ein_kmonim {
+    background: url(../images/schwartzman/IMG_2854.jpg) no-repeat -20px 0;
+    background-size: 112%;
+}
+
+#shirat_roim {
+    background: url(../images/schwartzman/shirat_roim.jpg) no-repeat 55% 50%;
+    background-size: 130%;
+}
+
+#noked {
+    background: url(../images/schwartzman/780408901000100866487no.jpg) no-repeat 10% 40%;
+    background-size: 150%;
+}
+#container_long2 {
+    width: 996px;
+    height: 1900px;
+    background: url(../images/home/Long_BG.png);
+    background-size: 996px 1900px;
+    margin: 0 auto;
+}

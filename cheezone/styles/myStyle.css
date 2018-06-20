@@ -1521,9 +1521,6 @@ video,#recipe_fin_dish{
     left: 320px;
     top: 147px;
 }
-a:focus div{
-    border: rgb(238, 211, 100) solid 1px;
-}
 /*contactUs*/
 #form{
     width: 932px;

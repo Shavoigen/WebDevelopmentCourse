@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheezone - גלילות חציל איטלקיות</title>
+    <meta name="description" content="מנה בנוסח איטלקי - חצילים ממולאים בגבינות. קל ומהיר להכנה." />
+    <meta name="keywords" content="cheezone, צ'יזון, גבינות, חצילים, חציל, קל, מהיר, איטלקי, מנה, ממולא, ממולאים, שילוב" />
+    <meta name="author" content="ליאור אביאל, אלכסנדר נזין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/myStyle.css"/>
+    <link rel="icon" href="images/home/favicon.png"/>  <!--Title icon/favicon-->
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/scripts.js"></script>
+
+</head>
+<body onload="tab_nav()">
+<header>
+    <div id="wide">
+        <!--1024-->
+        <div id="navigation_bar_1024">
+            <div id="navigation_bar_960">
+                <a id="skipnav" href="#container_longer">דלג לתוכן</a>
+                <div id="logo_in_content_intern"><a href="index.html"><img id="logo_img" src="images/home/The_LOGO.png" alt="צ'יזון - מבינים בגבינה"></a></div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#"><span>סוגי גבינה</span></a>
+                                <ul>
+                                    <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                    <li><a href="#" class="notActive">רכות</a></li>
+                                    <li><a href="#" class="notActive">טריות</a></li>
+                                    <li><a href="#" class="notActive">עובש</a></li>
+                                </ul>
+                            </li>
+                            <li><a id="selected_page" href="recipes.html"><span>מתכונים והמלצות</span></a></li>
+                            <li id="header_trip">
+                                <a href="attractions.html"><span>טיולים ואטרקציות</span></a>
+                                <ul>
+                                    <li><a href="north.html">איזור הצפון</a></li>
+                                    <li><a href="#" class="notActive">איזור מרכז</a></li>
+                                    <li><a href="#" class="notActive">איזור דרום</a></li>
+                                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">אודות</a></li>
+                            <li><a href="siteMap.html">מפת האתר</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="below_nav_1024">
+        <nav>
+            <div class="sub_nav">
+                <!--1024-->
+                <div>
+                    <ul>
+                        <!--600-->
+                        <li class="not_a_link_sub">
+                            ראשונות ועיקריות
+                            <ul>
+                                <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                <li><a href="stuffed.html">ממולאים</a></li>
+                                <li><a href="#" class="notActive">סלטים</a></li>
+                                <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                            </ul>
+                        </li>
+                        <li class="not_a_link_sub">
+                            מאפים וקינוחים
+                            <ul>
+                                <li><a href="#" class="notActive">מאפים מלוחים</a></li>
+                                <li><a href="#" class="notActive">עוגות</a></li>
+                                <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                <li><a href="#" class="notActive">קינוחים קרים</a></li>
+                            </ul>
+                        </li>
+                        <li class="not_a_link_sub">
+                            סנדביצ'ים וממרחים
+                            <ul>
+                                <li><a href="#" class="notActive">סנדביצ'ים</a></li>
+                                <li><a href="#" class="notActive">ממרחים</a></li>
+                            </ul>
+                        </li>
+                        <li class="not_a_link_sub">
+                            לצד אלכוהול
+                            <ul>
+                                <li><a href="#" class="notActive">יינות</a></li>
+                                <li><a href="#" class="notActive">וויסקי וסקוטץ'</a></li>
+                                <li><a href="#" class="notActive">בירה</a></li>
+                                <li><a href="#" class="notActive">קוניאק וברנדי</a></li>
+                                <li><a href="#" class="notActive">רום</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--1024, yellow background-->
+        <div id="below_nav_960">
+            <!--960-->
+            <p id="below_nav_text_intern">האתר עם <span>המידע המקיף ביותר</span> בתחום הגבינות</p>
+        </div>
+    </div>
+</header>
+<div id="bread_1024">
+    <div>
+        <nav>
+            <ul id="bread">
+                <li class="bread_crumbs"><a href="index.html">דף הבית</a></li>
+                <li class="bread_crumbs"><a href="recipes.html">מתכונים והמלצות</a></li>
+                <li class="bread_crumbs">עיקריות וראשונות</li>
+                <li class="bread_crumbs"><a href="stuffed.html">ממולאים</a></li>
+                <li class="bread_crumbs">גלילות חציל איטלקיות</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div id="container_longer">
+    <div id="content">
+        <main>
+            <div id="recipe_container">  <!--width:940, height:100%-->
+                <article>
+                    <h1>גלילות חציל איטלקיות</h1>
+                    <div id="recipe_section_1">  <!--white background, brown border, height:299+2border width:940/100%-->
+                        <div id="recipe_section_1_content">
+                            <div id="recipe_top_ul_wrapper">  <!--width:220px-->
+                                <ul>
+                                    <li>  <!--width:80, height:90, margin: 0 10px-->
+                                        <div>
+                                            <p class="icon_text_bold">רמת קושי</p>
+                                        </div>
+                                        <div>
+                                            <div id="recipe_icon_1" class="recipe_icon_size"></div>  <!--css image difficulty-->
+                                        </div>
+                                        <div>
+                                            <p>קל</p>
+                                        </div>
+                                    </li>
+                                    <li>  <!--width:80, height:90-->
+                                        <div>
+                                            <p class="icon_text_bold">משך ההכנה</p>
+                                        </div>
+                                        <div id="recipe_icon_2" class="recipe_icon_size"></div>  <!--css image time-->
+                                        <div>
+                                            <p>60 דקות</p>
+                                        </div>
+                                    </li>
+                                    <li>  <!--width:80, height:90-->
+                                        <div>
+                                            <p class="icon_text_bold">כמות מנות</p>
+                                        </div>
+                                        <div id="recipe_icon_3" class="recipe_icon_size"></div>  <!--css image quantity-->
+                                        <div>
+                                            <p>13-14 גלילות</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="first_eggplant_img"></div>  <!--TODO: put real image-->
+                        </div>
+                    </div>
+                    <div id="recipe_section_2">  <!--brown border, white bg, width:938+2border, height: veryLong-->
+                        <div id="eggplat_bg">  <!--css image eggplants background-->
+                            <div>  <!--semi transparent black bg-->
+                                <p>
+                                    <span>חציל</span> הוא אחד הירקות המתאימים ביותר לשילוב עם גבינות טריות כמו ריקוטה, פטה ושמנת, מטבח ים תיכוני רווי במאכלים, בהם החציל והגבינה, יוצרים טעמים חדשים שלא ניתן לא לאהוב. לפניכם מתכון למנה ראשונה מהמטבח יווני-איטלקי, אשר לא ידרוש ממכם הרבה זמן והשקעה ויהווה תוספת מרשימה לכל ארוחה.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="ingredients_wrapper">
+                            <div id="cooking_mice"></div>  <!--css image of cooking mice-->
+                            <div id="ingredients">  <!--css background border image-->
+                                <section>
+                                    <div>
+                                        <h2>מצרכים</h2>
+                                        <ul>
+                                            <li>2 חצילים מאורכים</li>
+                                            <li>מלח, פלפל שחור גרוס</li>
+                                            <li>1 צנצנת רוטב עגבניות מוכן לפסטה</li>
+                                            <li>350 גרם <a href="#" class="notActiveGrey">גבינת ריקוטה</a></li>
+                                            <li>150 גרם  <a href="#" class="notActiveGrey">גבינת מוצרלה</a></li>
+                                            <li>100 גרם  <a href="#" class="notActiveGrey">גבינת פרמזן</a> מגורדת</li>
+                                            <li>חצי צרור בזיליקום</li>
+                                            <li>1 ביצה</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div id="preparation">
+                            <section>
+                                <h2>מהלך ההכנה:</h2>
+                                <ol>
+                                    <li>
+                                        <div>
+                                            <section>
+                                                <h3>הכנת חצילים</h3>
+                                                <ol>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle1"><p>1</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p1" controls>
+                                                                <source src="videos/cut.mp4" type="video/mp4"/>
+                                                                <source src="videos/cut.ogg" type="video/ogg" />
+                                                            </video>
+                                                            <!--<iframe width="100%" height="150" src="https://www.youtube.com/embed/ZTjuODLKbqg?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen gesture="media"></iframe>-->
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>קוטמים את ראש החציל ואת בסיסו ופורסים לפרוסות לאורכו בעובי של 1 ס"מ.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="recipe_step">
+                                                        <div class="video">  <!--video2-->
+                                                            <div class="circle" id="circle2"><p>2</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p2" controls>
+                                                                <source src="videos/spread-wait20_2.mp4" type="video/mp4"/>
+                                                                <source src="videos/spread-wait20_2.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>מסדרים ניירות אפייה על תבניות ועליהן<br/> את פרוסות החציל. מתבלים במלח משני<br/> הצדדים ומניחים בצד למשך 20 דקות<br/> על מנת להפטר מנוזלים מיותרים.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="recipe_step">
+                                                        <div class="video">  <!--video3-->
+                                                            <div class="circle" id="circle3"><p>3</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p3" controls>
+                                                                <source src="videos/dry.mp4" type="video/mp4"/>
+                                                                <source src="videos/dry.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>כעבור זמן זה, סופגים את המים<br/> בנייר סופג ואופים בתנור<br/> כ-20 דקות בחום של 180 מעלות.</p>
+                                                        </div>
+                                                    </li>
+                                                </ol>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <section>
+                                                <h3>הכנת המילוי</h3>
+                                                <ol>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle4"><p>4</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p4" controls>
+                                                                <source src="videos/baz_cut.mp4" type="video/mp4"/>
+                                                                <source src="videos/baz_cut.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>קוצצים את הבזיליקום דק.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle5"><p>5</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p5" controls>
+                                                                <source src="videos/ingredients.mp4" type="video/mp4"/>
+                                                                <source src="videos/ingredients.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>בקערה אחת שמים את כל הגבינות,<br/> בזיליקום וביצה. שמרו כמות קטנה של<br/> בזיליקום ופרמז'ן לשלב הסופי</p>
+                                                        </div>
+                                                    </li>
+                                                    <li id="video_6" class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle6"><p>6</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p6" controls>
+                                                                <source src="videos/blend_till_ready.mp4" type="video/mp4"/>
+                                                                <source src="videos/blend_till_ready.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>מערבבים היטב עד שמתקבלת<br/> מלית אחידה וחלקה.</p>
+                                                        </div>
+                                                    </li>
+                                                </ol>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <section>
+                                                <h3>הכנת הגלילות</h3>
+                                                <ol>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle7"><p>7</p></div>
+                                                            <video width="98.5%" height="140px" aria-labelledby="p7" tabindex="0" controls>
+                                                                <source src="videos/rolling.mp4" type="video/mp4"/>
+                                                                <source src="videos/rolling.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>מניחים כף גדושה של מלית גבינות על כל פרוסת חציל (על הצד הפחות מושחם) ומגלגלים.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle8"><p>8</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p8" controls>
+                                                                <source src="videos/sauce.mp4" type="video/mp4"/>
+                                                                <source src="videos/sauce.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>ממלאים תבנית נפרדת בחצי מכמות רוטב העגבניות מניחים בה את הגלילות המוכנות.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li class="recipe_step">
+                                                        <div class="video">
+                                                            <div class="circle" id="circle9"><p>9</p></div>
+                                                            <video width="98.5%" height="140px" tabindex="0" aria-labelledby="p9" controls>
+                                                                <source src="videos/final.mp4" type="video/mp4"/>
+                                                                <source src="videos/final.ogg" type="video/ogg" />
+                                                            </video>
+                                                        </div>
+                                                        <div class="recipe_explanation">
+                                                            <p>שופכים מעל את שאר הרוטב, מפזרים<br/> מעל את שאריות הפרמזן והבזיליקום ואופים כ-15 דקות בחום של 180 מעלות.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li id="recipe_last_li">
+                                                        <div id="recipe_fin_mice">
+                                                            <div id="spoon_mice"></div>  <!--css image mice in a spoon-->
+                                                            <p>ניתן להגיש מיד לאחר<br/> ההכנה או כתוספת קרה.</p>
+                                                        </div>
+                                                        <div id="recipe_fin_dish">
+                                                            <p id="recipe_fin_dish_p">בתיאבון!</p>  <!--position absolute:top-right (top:3%, right:4%)-->
+                                                        </div>
+                                                    </li>
+                                                </ol>
+                                            </section>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </section>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <aside>
+            <div class="general_aside">
+                <section>
+                    <h2 >עשוי לעניין אותך</h2>
+                    <ul>
+                        <li id="aside_recipe_1">
+                            <div class="brown_border_1" id="aside_recipe_id_1">
+                                <a href="#" class="notActive">
+                                    <div>
+                                        <section>
+                                            <div class="h3_wrap">
+                                                <h3>פטריות ממולאות</h3>
+                                            </div>
+                                            <div id="mashroom_pic" class="lobby_small_poster">
+                                                <!--image css-->
+                                                <div class="brown_border_hover"><p>פטריות ממולאות במילו<br /> תרד שום וריקוטה</p></div>  <!--black transparent background, revealed on hover-->
+                                            </div>
+                                        </section>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li id="aside_recipe_2">
+                            <div class="brown_border_1" id="aside_recipe_id_2">
+                                <a href="#" class="notActive">
+                                    <div>
+                                        <section>
+                                            <div class="h3_wrap">
+                                                <h3>פלפלים ממולאים</h3>
+                                            </div>
+                                            <div id="pepper_pic" class="lobby_small_poster">
+                                                <!--image css-->
+                                                <div class="brown_border_hover"><p>פלפלים צעירים במילוי<br /> פטה, טבורוג ועשבי תיבול</p></div>  <!--black transparent background, revealed on hover-->
+                                            </div>
+                                        </section>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li id="aside_recipe_3">
+                            <div class="brown_border_1" id="aside_recipe_id_3">
+                                <a href="#" class="notActive">
+                                    <div>
+                                        <section>
+                                            <div class="h3_wrap">
+                                                <h3>קישואים ממולאים</h3>
+                                            </div>
+                                            <div id="kishu_pic" class="lobby_small_poster">
+                                                <!--image css-->
+                                                <div class="brown_border_hover"><p>קישואים אפויים במילוי גבינות<br />כבשים טריות וזיתים שחורים</p></div>  <!--black transparent background, revealed on hover-->
+                                            </div>
+                                        </section>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li id="aside_recipe_4">
+                            <div class="brown_border_1" id="aside_recipe_id_4">
+                                <a href="#" class="notActive">
+                                    <div>
+                                        <section>
+                                            <div class="h3_wrap">
+                                                <h3>תפו''א ממולאים</h3>
+                                            </div>
+                                            <div id="potato_pic" class="lobby_small_poster">
+                                                <!--image css-->
+                                                <div class="brown_border_hover"><p> תפו''א במילוי שמנת,צ'דר, <br />ברוקולי, ובצל ירוק</p></div>  <!--black transparent background, revealed on hover-->
+                                            </div>
+                                        </section>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </aside>
+    </div>
+</div>
+
+<footer>
+    <nav>
+        <div>  <!--div wrapper, 1024, 250-->
+            <div>  <!--1024 yellow, 200-->
+                <div>  <!--960, 140-->
+                    <ul>
+                        <li>
+                            <p>ראשי</p>
+                            <ul>
+                                <li><a href="index.html">דף הבית</a></li>
+                                <li><a href="about.html">אודות</a></li>
+                                <li><a href="siteMap.html">מפת האתר</a></li>
+                                <li><a href="contactUs.html">צור קשר</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>סוגי גבינות</p>
+                            <ul>
+                                <li><a href="hard_cheese.html">קשות</a></li>
+                                <li><a href="#" class="notActive">טריות</a></li>
+                                <li><a href="#" class="notActive">עובש</a></li>
+                                <li><a href="#" class="notActive">רכות</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>מתכונים</p>
+                            <ul>
+                                <li><a href="#" class="notActive">מאפים מתוקים</a></li>
+                                <li><a href="#" class="notActive">עוגות</a></li>
+                                <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                <li><a href="#" class="notActive">קינוח קר</a></li>
+                                <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                <li><a href="stuffed.html">ממולאים</a></li>
+                                <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                <li><a href="#" class="notActive">סנדביצ'ים וממרחים</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>עם אלכוהול</p>
+                            <ul>
+                                <li><a href="#" class="notActive">יין</a></li>
+                                <li><a href="#" class="notActive">ויסקי וסקוטץ'</a></li>
+                                <li><a href="#" class="notActive">בירה</a></li>
+                                <li><a href="#" class="notActive">ברנדי וקוניאק</a></li>
+                                <li><a href="#" class="notActive">רום</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>טיולים ואטרקציות</p>
+                            <ul>
+                                <li><a href="north.html">אזור הצפון</a></li>
+                                <li><a href="#" class="notActive">אזור המרכז</a></li>
+                                <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                <li><a href="#" class="notActive">אזור הדרום</a></li>
+                            </ul>
+                        </li>
+                        <li id="footer_last_li">
+                            <p>פופולרי ביותר</p>
+                            <ul>
+                                <li><a href="#" class="notActive">גבינת ברי</a></li>
+                                <li><a href="#" class="notActive">גבינת אמנטל</a></li>
+                                <li><a href="#" class="notActive">חוות עין כמונים</a></li>
+                                <li><a href="#" class="notActive">מחלבת קדוש</a></li>
+                                <li><a href="#" class="notActive">פטריות ממולאות</a></li>
+                                <li><a href="#" class="notActive">סלט אגסים</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="brown_bottom"></div>  <!--1024 brown bg-->
+        </div>
+    </nav>
+</footer>
+</body>
+</html>

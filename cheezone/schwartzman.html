@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheezone - מחלבת שוורצמן</title>
+    <meta name="description" content="מחלבת שוורצמן הממוקמת בצפון הארץ, ידועה בגבינות טעימות, איכותיות ויחודיות המיוצריות על ידי גבנים וותיקים" />
+    <meta name="keywords" content="cheezone, צ'יזון, טיולים, צפון, אטרקציות, אזור, גבינות, מסעדה, האכלה, ייצור" />
+    <meta name="author" content="ליאור אביאל, אלכסנדר נזין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/myStyle.css" />
+    <link rel="icon" href="images/home/favicon.png" />  <!--Title icon/favicon-->
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/scripts.js"></script>
+</head>
+<body onload="tab_nav()">
+    <header>
+        <div id="wide">
+            <!--1024-->
+            <div id="navigation_bar_1024">
+                <!--1024 - content background-->
+                <div id="navigation_bar_960">
+                    <!--960 - content background-->
+                    <a id="skipnav" href="#container_long2">דלג לתוכן</a>
+                    <div id="logo_in_content_intern"><a href="index.html"><h1><img id="logo_img" src="images/home/The_LOGO.png" alt="צ'יזון - מבינים בגבינה"></h1></a></div>
+                    <div id="nav">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#"><span>סוגי גבינה</span></a>
+                                    <ul>
+                                        <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                        <li><a href="#" class="notActive">רכות</a></li>
+                                        <li><a href="#" class="notActive">טריות</a></li>
+                                        <li><a href="#" class="notActive">עובש</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="recipes.html"><span>מתכונים והמלצות</span></a>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><span>ראשונות ועיקריות</span></a>
+                                            <ul>
+                                                <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                                <li><a href="stuffed.html">ממולאים</a></li>
+                                                <li><a href="#" class="notActive">סלטים</a></li>
+                                                <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>מאפים וקינוחים</span></a>
+                                            <ul>
+                                                <li><a href="#" class="notActive">מאפים מלוחים</a></li>
+                                                <li><a href="#" class="notActive">עוגות</a></li>
+                                                <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                                <li><a href="#" class="notActive">קינוח קר</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>סנדביצ'ים וממרחים</span></a>
+                                            <ul>
+                                                <li><a href="#" class="notActive">סנדביצ'ים</a></li>
+                                                <li><a href="#" class="notActive">ממרחים</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#"><span>לצד אלכוהול</span></a>
+                                            <ul id="alc_nav">
+                                                <li><a href="#">יינות</a></li>
+                                                <li><a href="#">וויסקי וסקוטש</a></li>
+                                                <li><a href="#">בירה</a></li>
+                                                <li><a href="#">קוניאק וברנדי</a></li>
+                                                <li><a href="#">רום</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="header_trip"><a id="selected_page" href="attractions.html"><span>טיולים ואטרקציות</span></a></li>
+                                <li><a href="about.html">אודות</a></li>
+                                <li><a href="siteMap.html">מפת האתר</a></li>
+                                <li><a href="contactUs.html">צור קשר</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="below_nav_1024">
+            <nav>
+                <div class="sub_nav">
+                    <!--1024-->
+                    <div>
+                        <!--960-->
+                        <ul>
+                            <li class="ezor"><a href="north.html">אזור הצפון</a></li>
+                            <li class="ezor"><a href="#" class="notActive">אזור המרכז</a></li>
+                            <li class="ezor"><a href="#" class="notActive">אזור הדרום</a></li>
+                            <li class="ezor" id="jer"><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> <!--1024, yellow background-->
+            <div id="below_nav_960">
+                <!--960-->
+                <p id="below_nav_text_intern">האתר עם <span>המידע המקיף ביותר</span> בתחום הגבינות</p>
+            </div>
+        </div>
+    </header>
+    <div id="bread_1024">
+        <div>
+            <nav>
+                <ul id="bread">
+                    <li class="bread_crumbs"><a href="index.html">דף הבית</a></li>
+                    <li class="bread_crumbs"><a href="attractions.html">טיולים ואטרקציות</a></li>
+                    <li class="bread_crumbs"><a href="attractions.html">אזור הצפון</a></li>
+                    <li class="bread_crumbs"><a href="attractions.html">מחלבת שוורצמן</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="container_long2">
+        <div id="content">
+            <main>
+                <div id="recipe_container">
+                    <!--width:940, height:100%-->
+                    <article>
+                        <h1>מחלבת שוורצמן</h1>
+                        <div id="recipe_section_1">
+                            <!--white background, brown border, height:299+2border width:940/100%-->
+                            <div id="recipe_section_1_content">
+                                <div id="recipe_top_ul_wrapper">
+                                    <!--width:220px-->
+                                    <ul>
+                                        <li>
+                                            <!--width:80, height:90, margin: 0 10px-->
+                                            <div>
+                                                <p class="icon_text_bold">אטרקציות</p>
+                                            </div>
+                                            <div>
+                                                <div id="place_icon_1" class="recipe_icon_size"></div>  <!--css image difficulty-->
+                                            </div>
+                                            <div>
+                                                <p>חנות<br /> מוזיאו מסעדה</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <!--width:80, height:90-->
+                                            <div>
+                                                <p class="icon_text_bold">שעות פעילות</p>
+                                            </div>
+                                            <div id="place_icon_2" class="recipe_icon_size"></div>  <!--css image time-->
+                                            <div>
+                                                <p>כל השנה<br />20:00-8:00<br /> ימים: א-ש</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <!--width:80, height:90-->
+                                            <div>
+                                                <p class="icon_text_bold">מיקום</p>
+                                            </div>
+                                            <div id="place_icon_3" class="recipe_icon_size"></div>  <!--css image quantity-->
+                                            <div>
+                                                <p>בת שלמה<br />050-5537230</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div id="schwartzman_logo"></div>  <!--TODO: put real image-->
+                            </div>
+                        </div>
+                        <div id="recipe_section_2">
+                            <!--brown border, white bg, width:938+2border, height: veryLong-->
+                            <div id="old_pic">
+                                <!--css image eggplants background-->
+                                <div>
+                                    <!--semi transparent black bg-->
+                                    <p>
+                                        לפני כ-100 שנה הקימה משפחת <span>שוורצמן</span> את מחלבתם המפורסמת ומאז לא פסקו מלייצר גבינות משובחות מכל סוגי החלב.  סודות הייצור והכנת הגבינות נשמרים על ידי בני המשפחה מזה ארבעה דורות.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="manchego_article">
+                                <div class="in_place_part">
+                                    <div id="museum"></div>
+                                    <section>
+                                        <div class="manchego_p">
+                                            <h2>לחוות</h2>
+                                            <p>
+                                                בחצר המחלבה עומד מבנה אבן עתיק המשמש כמוזיאון פרטי ומסעדה. כאן ניתן להיחשף לחפצים שונים, כלים, תמונות ומסמכים המתעדים ומתארים את חיי המשק בעבר ואת הימים של הקמת המושבה.
+                                            </p>
+                                        </div>
+                                    </section>
+                                </div>
+                                <div class="in_place_part">
+                                    <div id="girls" class="in_in_place_part"></div>
+                                    <div id="restourant" class="in_in_place_part"></div>
+                                    <section>
+                                        <div class="manchego_p" id="p2">
+                                            <h2>לאכול</h2>
+                                            <p>במקום ניתן ליהנות משפע של גבינות משובחות בכל מרקם וטעם אפשרי, אשר עשויות מחלב עזים, כבשים ובקר מן הרפת והדיר הפרטי של משפחת שוורצמן. מעבר לכך, ניתן גם לטעום מהזיתים המשובחים ממטעי בת שלמה ומדבש איכותי המיוצר על יד המשפחה.</p>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>  <!--Manchego creation css image-->
+                        </div>
+                    </article>
+                </div>
+            </main>
+                </div>
+            <aside>
+                <div class="general_aside">
+                    <section>
+                        <h2>עשוי לעניין אותך</h2>
+                        <ul>
+                            <li id="aside_recipe_1">
+                                <div class="brown_border_1" id="aside_recipe_id_1">
+                                    <a href="http://altodairy.co.il/" target="_blank">
+                                        <div>
+                                            <section>
+                                                <div class="h3_wrap">
+                                                    <h3>אלטו</h3>
+                                                </div>
+                                                <div id="alto" class="lobby_small_poster">
+                                                    <!--image css-->
+                                                    <div class="brown_border_hover"><p>מחלבה כפרית<br /> בקיבוץ שמרת</p></div>  <!--black transparent background, revealed on hover-->
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li id="aside_recipe_2">
+                                <div class="brown_border_1" id="aside_recipe_id_2">
+                                    <a href="https://www.facebook.com/einkamonim/" target="_blank">
+                                        <div>
+                                            <section>
+                                                <div class="h3_wrap">
+                                                    <h3>עין כמונים</h3>
+                                                </div>
+                                                <div id="ein_kmonim" class="lobby_small_poster">
+                                                    <!--image css-->
+                                                    <div class="brown_border_hover"><p>משק חקלאי קטן<br />בהרי הגליל</p></div>  <!--black transparent background, revealed on hover-->
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li id="aside_recipe_3">
+                                <div class="brown_border_1" id="aside_recipe_id_3">
+                                    <a href="http://www.shiratroim.co.il/" target="_blank">
+                                        <div>
+                                            <section>
+                                                <div class="h3_wrap">
+                                                    <h3>שירת רועים</h3>
+                                                </div>
+                                                <div id="shirat_roim" class="lobby_small_poster">
+                                                    <!--image css-->
+                                                    <div class="brown_border_hover"><p>מחלבת צאן ייחודית<br />בקיבוץ לוטם</p></div>  <!--black transparent background, revealed on hover-->
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li id="aside_recipe_4">
+                                <div class="brown_border_1" id="aside_recipe_id_4">
+                                    <a href="https://www.facebook.com/%D7%92%D7%91%D7%99%D7%A0%D7%95%D7%AA-%D7%A2%D7%99%D7%96%D7%99%D7%9D-%D7%95%D7%9B%D7%91%D7%A9%D7%99%D7%9D-%D7%9E%D7%9E%D7%97%D7%9C%D7%91%D7%95%D7%AA-%D7%91%D7%95%D7%98%D7%99%D7%A7-%D7%90%D7%91%D7%99%D7%91%D7%94-506182086197191/" target="_blank">
+                                        <div>
+                                            <section>
+                                                <div class="h3_wrap">
+                                                    <h3>הנוקד</h3>
+                                                </div>
+                                                <div id="noked" class="lobby_small_poster">
+                                                    <!--image css-->
+                                                    <div class="brown_border_hover"><p> מחלבת בוטיק <br />במצפה גילון</p></div>  <!--black transparent background, revealed on hover-->
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </aside>
+        </div>
+    <footer>
+        <nav>
+            <div>
+                <!--div wrapper, 1024, 250-->
+                <div>
+                    <!--1024 yellow, 200-->
+                    <div>
+                        <!--960, 140-->
+                        <ul>
+                            <li>
+                                <p>ראשי</p>
+                                <ul>
+                                    <li><a href="index.html">דף הבית</a></li>
+                                    <li><a href="about.html">אודות</a></li>
+                                    <li><a href="siteMap.html">מפת האתר</a></li>
+                                    <li><a href="contactUs.html">צור קשר</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>סוגי גבינות</p>
+                                <ul>
+                                    <li><a href="hard_cheese.html">קשות</a></li>
+                                    <li><a href="#" class="notActive">טריות</a></li>
+                                    <li><a href="#" class="notActive">עובש</a></li>
+                                    <li><a href="#" class="notActive">רכות</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>מתכונים</p>
+                                <ul>
+                                    <li><a href="#" class="notActive">מאפים מתוקים</a></li>
+                                    <li><a href="#" class="notActive">עוגות</a></li>
+                                    <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                    <li><a href="#" class="notActive">קינוח קר</a></li>
+                                    <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                    <li><a href="stuffed.html">ממולאים</a></li>
+                                    <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                    <li><a href="#" class="notActive">סנדביצ'ים וממרחים</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>עם אלכוהול</p>
+                                <ul>
+                                    <li><a href="#" class="notActive">יין</a></li>
+                                    <li><a href="#" class="notActive">ויסקי וסקוטץ'</a></li>
+                                    <li><a href="#" class="notActive">בירה</a></li>
+                                    <li><a href="#" class="notActive">ברנדי וקוניאק</a></li>
+                                    <li><a href="#" class="notActive">רום</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>טיולים ואטרקציות</p>
+                                <ul>
+                                    <li><a href="north.html">אזור הצפון</a></li>
+                                    <li><a href="#" class="notActive">אזור המרכז</a></li>
+                                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                    <li><a href="#" class="notActive">אזור הדרום</a></li>
+                                </ul>
+                            </li>
+                            <li id="footer_last_li">
+                                <p>פופולרי ביותר</p>
+                                <ul>
+                                    <li><a href="#" class="notActive">גבינת ברי</a></li>
+                                    <li><a href="#" class="notActive">גבינת אמנטל</a></li>
+                                    <li><a href="#" class="notActive">חוות עין כמונים</a></li>
+                                    <li><a href="#" class="notActive">מחלבת קדוש</a></li>
+                                    <li><a href="#" class="notActive">פטריות ממולאות</a></li>
+                                    <li><a href="#" class="notActive">סלט אגסים</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="brown_bottom"></div>  <!--1024 brown bg-->
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

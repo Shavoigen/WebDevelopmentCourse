@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheezone - אודות</title>
+    <meta name="description" content="עמוד אודות" />
+    <meta name="keywords" content="אודות, מי, אנחנו, רקע, HIT" />
+    <meta name="author" content="ליאור אביאל, אלכסנדר נזין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/myStyle.css">
+    <link rel="icon" href="images/home/favicon.png" >
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/scripts.js"></script>
+</head>
+<body onload="tab_nav()">
+<header>
+    <div id="wide">  <!--1024-->
+        <div id="navigation_bar_1024">  <!--1024 - content background-->
+            <div id="navigation_bar_960">  <!--960 - content background-->
+                <a id="skipnav" href="#container_odot">דלג לתוכן</a>
+                <div id="logo"><a href="index.html"><h1><img id="logo_img" src="images/home/The_LOGO.png" alt="צ'יזון - מבינים בגבינה"></h1></a></div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#"><span>סוגי גבינה</span></a>
+                                <ul>
+                                    <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                    <li><a href="#" class="notActive">רכות</a></li>
+                                    <li><a href="#" class="notActive">טריות</a></li>
+                                    <li><a href="#" class="notActive">עובש</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="recipes.html"><span>מתכונים והמלצות</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><span>ראשונות ועיקריות</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                            <li><a href="stuffed.html">ממולאים</a></li>
+                                            <li><a href="#" class="notActive">סלטים</a></li>
+                                            <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>מאפים וקינוחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">מאפים מלוחים</a></li>
+                                            <li><a href="#" class="notActive">עוגות</a></li>
+                                            <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                            <li><a href="#" class="notActive">קינוח קר</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>סנדביצ'ים וממרחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">סנדביצ'ים</a></li>
+                                            <li><a href="#" class="notActive">ממרחים</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>לצד אלכוהול</span></a>
+                                        <ul id="alc_nav">
+                                            <li><a href="#">יינות</a></li>
+                                            <li><a href="#">וויסקי וסקוטש</a></li>
+                                            <li><a href="#">בירה</a></li>
+                                            <li><a href="#">קוניאק וברנדי</a></li>
+                                            <li><a href="#">רום</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="header_trip">
+                                <a href="attractions.html"><span>טיולים ואטרקציות</span></a>
+                                <ul>
+                                    <li><a href="north.html">איזור הצפון</a></li>
+                                    <li><a href="#" class="notActive">איזור מרכז</a></li>
+                                    <li><a href="#" class="notActive">איזור דרום</a></li>
+                                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                </ul>
+                            </li>
+                            <li><a id="must_page_selected" href="about.html">אודות</a></li>
+                            <li><a href="siteMap.html">מפת האתר</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="below_nav_1024">  <!--1024, yellow background-->
+        <div id="below_nav_960">  <!--960-->
+            <p id="below_nav_text">האתר עם <span>המידע המקיף ביותר</span> בתחום הגבינות</p>
+        </div>
+    </div>
+</header>
+<div id="bread_1024">
+    <div>
+        <nav>
+            <ul id="bread">
+                <li class="bread_crumbs"><a href="index.html">עמוד הבית</a></li>
+                <li class="bread_crumbs">מפת האתר</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div id="container_odot">  <!--996-->
+    <div id="content">  <!--960-->
+        <main id="main">
+            <article>
+                <div class="container_about">
+                    <h1>אודות האתר</h1>
+                    <div id="about_white">
+                        <div>
+                            <div id="about_pic">
+                                <!--content background css image-->
+                                <div id="about_content_BG">
+                                    <p><span id="about_content_first">CHEEZONE</span> הינו את אינפורמטיבי והדרכתי המוקדש לגבינות ולכלל התחומים הקשורים אליהן. המטרה העיקרית אשר הצבנו לפנינו במהלך פיתוח האתר הייתה ליצור מקום בו כל אוהבי הגבינה יוכלו להחשף למידע ולתוכן הדרכתי רלוונטי בצורה חווייתית ומעניינת. כאן תוכלו לקבל מידע מלא על תכונות ומאפיינים, תהליכי ייצור ייחודיים ושימושים קולינריים מקוריים, בעבור מאות סוגי גבינה מכל העולם. כמו כן, ראינו לנכון לרכז עבורכם מידע על כלל הפעילויות חוץ ביתיות חווייתיותת הקשורות לגבינה.</p>
+                                </div>
+                            </div>
+                            <div id="about_inf">
+                                <section>
+                                    <section>
+                                        <div class="about_col_A">
+                                            <p>פותח על ידי:<strong> אלכסנדר נזין וליאור אביאל</strong></p>
+                                            <ul>
+                                                במסגרת פרוייקט משולב לקורסים בשנה א', תשע"ח:
+                                                <li>אפיון ממשק וחווית משתמש</li>
+                                                <li>עיצוב ממשק משתמש</li>
+                                                <li>פיתוח אתרי אינטרנט</li>
+                                                <li>הנגשת אתרים</li>
+                                            </ul>
+                                            <p>האתר אופיין ועוצב לפי עקרונות של "עיצוב ממשק" ופותח ב- HTML5 ו-CSS3 תוך התחשבות בעקרונות "נגישות אתרים".</p>
+                                        </div>
+                                    </section>
+                                    <section>
+                                        <div class="about_col_B">
+                                            <h2 id="about_dev_pages">העמודים שפותחו באתר:</h2>
+                                            <div class="about_col1">
+                                                <ul>
+                                                    <li><a href="index.html">עמוד הבית</a></li>
+                                                    <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                                    <li><a href="manchego.html">גבינת מנצ'גו</a></li>
+                                                    <li><a href="attractions.html">טיולים ואטרקציות</a></li>
+                                                    <li><a href="north.html">אזור הצפון</a></li>
+                                                    <li><a href="schwartzman.html">מחלבת שוורצמן</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="about_col1">
+                                                <ul>
+                                                    <li><a href="recipes.html">מתכונים והמלצות</a></li>
+                                                    <li><a href="stuffed.html">ממולאים</a></li>
+                                                    <li><a href="eggplant_recipe.html">גלילות חציל ממולאות</a></li>
+                                                    <li><a href="about.html">אודות</a></li>
+                                                    <li><a href="contactUs.html">צור קשר</a></li>
+                                                    <li><a href="siteMap.html">מפת האתר</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
+                            </div>
+                            <section>
+                                <div id="about_bottom">
+                                    <section>
+                                        <div>
+                                            <div class="about_bottom_pic">
+                                                <img alt="אלכס נזין וליאור אביאל" src="images/home/we.png" />
+                                                <p>אלכס </p> <p>ליאור </p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <div class="about_bottom_pic">
+                                        <img src="images/hit_logo.png" alt="H.I.T - מכון טכנולוגי חולון">
+                                        <a target="_blank" href="http://www.hit.ac.il/telem">הפקולטה לטכנולוגיות למידה</a>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div id="attribute">
+                                    <h2>:Attributions</h2>
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/artizone/4958478967/in/photolist-8yav3F-bAPcia-6xK7GY-8ADbeq-5EhZBz-nUTyAC-81tE1R-7hAcNL-4JUv6g-CFYYr-7MjsxF-rqcwGk-6hB4Bo-33Tphf-7hAcS1-7Ryizo-51B8ti-8kBabE-913GQ7-8ZZAxv-8k1Zps-dAQVR1-8kB9uE-jmAR3-4W3PGR-bXoMs-F31nQ-CgWUUF-bAwReB-7A4BGV-9tkykU-6DRoTr-bbQvmc-y6jqd-6Qx13M-bbQuzM-ohXfNN-u15xh-bbQvv2-nReRg8-8PKmWE-bbQtLx-8kBavh-5VtqYN-7FyGhE-5PPaoG-8jM9J1-ddvkzs-nXrexA-7hAdfY"> Manchego 1-Year Cheese</a> by <a target="_blank" href="https://www.flickr.com/photos/artizone/"> Artizone</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"> CC BY-NC-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Manchego.jpg">Manchego Cheese</a> by <a target="_blank" href="https://de.wikipedia.org/wiki/Benutzer:Zerohund">Zerohund</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"> CC BY-SA 3.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Queso_roncal.jpg"> Roncal</a> by <a target="_blank" href="https://commons.wikimedia.org/wiki/User:Ardo_Beltz"> Ardo Beltz</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"> CC BY-SA 3.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Idiazabal2.jpg"> Idiazabal</a> by <a target="_blank" href="https://commons.wikimedia.org/wiki/User:Ardo_Beltz"> Ardo Beltz</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"> CC BY-SA 3.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/pinprick/2554476693/in/photolist-27Y38e-9TqYne-9qSd85-7mmjz1-7mhqmx-efHFoy-hZ7qHj-4JUv6g-4TJmVB-6XnMLf-5rDDsZ-8ydxv9-bPiEor-4TNAnJ-7cf6yk-7eNfTC-4hQyT3-uDw1gF"> Wheel of Mahon</a> <a target="_blank" href="https://www.flickr.com/photos/pinprick/">by Amanda</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"> CC BY-NC-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Queso_ibores.jpg">Queso Ibores</a> by <a target="_blank" href="https://commons.wikimedia.org/wiki/User:Ardo_Beltz"> Ardo Beltz</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"> CC BY-SA 3.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/rubber_slippers_in_italy/6035809091/in/photolist-acn6KZ-4dBXJv-UJoRKL-fvGThJ-4dBXFn-24RQ8B6-5xiiDW-4GXjUG-7CPN5h-5xdVA2-boh8AH-cQravE-cQramh-8QWqLH-cQrDDL-cQrDPw-cQr8hW-cQr8ou-cQr9ys-cQr9GJ-bNmfa-cQr9bY-cQrE6j-cQr8LE-a41uUq-a7gKaV-XpeyKD-tDWjQh-kSaBmA-NK6May-GUzhCP-7KN8oC-23NECWJ-JqWhNu-Q41e9Z-tTXVuQ-prBm2g-prAQuF-prCG6W-dZiyqD-cQrDfS">Bitto</a> by <a target="_blank" href="https://www.flickr.com/photos/rubber_slippers_in_italy/">Rowena</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"> CC BY-NC-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Manchego_(15721254679).jpg">Manchego</a> by <a target="_blank" href="https://www.flickr.com/people/31803571@N02?rb=1">Christopher Brown</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/deed.en"> CC BY 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/mmm-yoso/18699517386/in/photolist-bRA2t2-7RYsL7-N2SdR-7JNMBk-9uFHRX-bZ7Ygu-c7PfXC-dKBjcy-6bAinV-5hji9N-69DiGX-4FDjTW-66yyXH-jmAfz-As6vVC-AZ1pJ-tG7Xo-4HKqqx-63ZZz9-QV6Wm8-9zJ2Z6-9fBzv6-mLCRGU-8Y1Gbd-PKiPJ-4hKy8T-22TDLGD-uupV3b-GLmEbv-7Ryizo-6aDEi1-LN5T1p-7zMmHH-PFvkgk-uwmbEC-mBbHKB-ta3EEQ-rpHA9K-e49j5w-MkeEU-D5HPX-5qMF2m-aVmG4t-7hAcYE-77sJoD-6KErzQ-4djDc6-tG7Ys-jmAGD-jmAag">Manchego Cheese - Taberna Los Huevos de Lucio</a> by<a href="https://www.flickr.com/photos/mmm-yoso/"> Kirk K</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY-NC-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Making_manchego_cheese.jpg">Making manchego cheese</a> by <a target="_blank" href="https://commons.wikimedia.org/wiki/User:Dcarrero">Dcarrero</a> is licensed under <a target="_blank" href="https://creativecommons.org/licenses/by-sa/2.1/es/deed.en"> CC BY-SA 2.1 ES</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/theskinimin/3289115312/in/photolist-61DzoG-MZo9s-7BrQ9j-qgVNo6-5R5w8t-h6GANA-6t1G5v-bkf2Qr-3QR1KS-bq38Ke-ear29w-e6r4zs-2oGp14-qSCxTm-d5qwCL-RME7UW-8EERCs-RXzSg9-fvQV66-5QyLye-5juDnq-UhyW9G-7xGBFV-oJ2TSd-8Lzh9A-sGuPGv-bkf2Ti-iH98pX-7qcREM-gSpzw6-b2Ls5P-9y8Yhn-otqDMH-8CzceE-37yA1G-img9gX-hJ6Ny4-bxqAMw-8Jsfc3-9oTK79-8KwWL2-7zkg8P-9dBHjD-7FHTom-6cafhY-cjdWFf-6By4jF-5rauGL-8tDLyQ-nupq3C">baked broccoli + cheese potato</a> by <a target="_blank" href="https://www.flickr.com/photos/theskinimin/"> Anne</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nd/2.0/"> CC BY-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/stevendepolo/3774068930/in/photolist-6Kv6cY-9u17EL-4Fvr3J-23Jbw3-7vpnjK-742fX8-89qZBU-6MsVKj-qGoPV-jwLtHX-6VFVAJ-3g63e9-84bEZq-EsbLg-4vu16x-ai6Bh3-25rGgpo-6N8ui2-hxM1V-5p3cTg-7LW6vu-hPmQBW-4z9Nv5-nhM49C-2g2mP2-4cTa1X-6xQg-bh2YgK-4xURoh-LLiovx-d8QVjL-T1bHtt-j8qhdR-X7vdmG-7vpnjF-z3xM4y-dCxTWF-aBsm9-RUp1Lb-dJqU9o-jkrqv-6fNEmt-qQ7Rdp-oLYm6S-5RYxaA-82b8jM-RMbgrL-a9iiM3-nhP43C-YmFTzD">Stuffed Peppers Dinner party</a> by <a target="_blank" href="https://www.flickr.com/photos/stevendepolo/"> Steven Depolois</a> licensed under<a target="_blank" href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/eltpics/14940881930/in/photolist-oLgVEA-HRzE9-6Z9nX9-mHBSp6-oVRovG-5Fi4dE-oFUgmT-71sBzG-5R8nUG-kJVuoY-qzR2Cj-6N1GWX-4ANVCF-2gdHKU-5LKmLb-dm29DH-9asa8T-jS4Xyv-hZSfFE-aZYPhn-dL3y1N-HAPw8-qJ6eD3-cSGUo-oEBTb7-btYTpE-dPcF44-7ByJtX-afHitQ-8kqMH1-5ww1aR-y8EUW-dtcnTg-qFwrrp-djzTn8-f3MK7q-6gJJkb-7cqrpy-CRyi7-5iJDib-d98L9S-7SBREH-ePGHw9-6hMn3b-f3xx7Z-gzNLRr-6sab3a-bqAfgq-6fNFir-4KuBhU">Filled tomatoes with light white cheese and basil</a> by<a target="_blank" href="https://www.flickr.com/photos/eltpics/"> eltpics </a>is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nc/2.0/"> CC BY-NC 2.0</a>
+</li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/veganfeast/4564837196/in/photolist-7XnZ4A-9DPCMu-9AYEHB-LUeCJ-7djrVp-6zsQaP-G1EkPH-99RTkE-9N6NsF-5wAiJw-bYJKe1-rfVBGD-naPbnH-593DwJ-6sehAo-6jsm6b-cEPYqQ-6fNBg4-t9GJF-5ww1na-naPSye-bsXhp7-naP9v6-qCfgYb-dmn7E3-naP5ek-naRi31-9JbtBj-5sqe8A-Ng6ev-a6oSjD-bungRj-6KLHKn-a1xaLn-GL7Qd-4KuPB5-6fSSkm-8NGQQn-8Jigi5-dm2iDk-8V26DY-94mmCD-4xktCq-4oAN3o-sfXuds-4pMWpm-29YmhZ-dDb8b4-Kn6Mn-aqRZvB">Kremed Spinach Stuffed Mushrooms</a> by<a target="_blank" href="https://www.flickr.com/photos/veganfeast/"> Janet Hudson</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flickr.com/photos/shadoefrizon/27939429722/in/photolist-JyUT4y-hPmRMS-6N8tQV-81y6X-qecoyh-qucrQL-UfZp28-jwKe9v-a9YnzY-7uc5Jp-8PuU1K-ectwTi-4NEeoi-5oPXhL-5tr2GD-6N8us8-6aEpXU-RMbgoQ-9b7Knw-9ZwRy5-2KTkhU-hM79qw-oFSAMh-8UoRoB-urdAMk-bEm86H-985fbC-SWdzV-8LJEtK-dhCRjk-9vDcCg-79QfqZ-4z5vot-WLMwfj-9Ci1Xx-7Adv7M-5w8BJY-24Sy1FQ-JVAy4-4z5BRP-naP9Px-4z9P3Y-6fSHdG-6fNCoV-5uxEo-dvyF3j-csVP5A-5UVUhX-96RJ5N-3MQ8x">Cheese stuffed zucchini flowers, with zucchini, and pesto</a> by<a target="_blank" href="https://www.flickr.com/photos/shadoefrizon/"> Mattias Pettersson</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by-nc-nd/2.0/"> CC BY-NC-ND 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.freepik.com/free-vector/silhouettes-of-farm-animals_799267.htm#term=farm%20animal&page=1&position=12">Silhouettes of farm animals</a> , <a target="_blank" href="https://www.freepik.com/free-vector/flags-of-the-world-collection_837815.htm#term=flags&page=1&position=0">Flags of the World Collection</a> designed by<a target="_blank" href="https://www.freepik.com/"> Freepik</a> is licensed under<a  target="_blank" href="https://creativecommons.org/licenses/by/2.0/"> CC BY 2.0</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.flaticon.com/free-icon/cheese_604914">Cheese</a>,<a target="_blank" href="https://www.flaticon.com/free-icon/drop-silhouette_67780#term=drop&page=1&position=4"> Drop</a>,<a target="_blank" href="https://www.flaticon.com/free-icon/dinner_637129#term=dish&page=2&position=3"> Food</a>,<a target="_blank" href="https://www.flaticon.com/free-icon/flag-black-shape_25669#term=flag&page=2&position=68"> Flag</a>, <a target="_blank" href="https://www.flaticon.com/free-icon/watch_822458#term=timer&page=3&position=57">Timer</a>,<a target="_blank" href="https://www.flaticon.com/free-icon/chef_483841"> Chef Hat</a>, <a target="_blank" href="https://www.flaticon.com/free-icon/clipboard_839986#term=list&page=3&position=61">List</a>,<a target="_blank" href="https://www.flaticon.com/free-icon/calendar_840074"> Calendar</a>, <a target="_blank" href="https://www.flaticon.com/free-icon/pin_484167#term=placeholder&page=1&position=29">Place Holder</a> from<a target="_blank" href="https://www.flaticon.com/"> Flaticon</a> is licensed under<a target="_blank" href="https://creativecommons.org/licenses/by/3.0/?theme=Running_Club"> CC BY 3.0</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
+<footer>
+    <nav>
+        <div>  <!--div wrapper, 1024, 250-->
+            <div>  <!--1024 yellow, 200-->
+                <div>  <!--960, 140-->
+                    <ul>
+                        <li>
+                            <p>ראשי</p>
+                            <ul>
+                                <li><a href="index.html">דף הבית</a></li>
+                                <li><a href="about.html">אודות</a></li>
+                                <li><a href="siteMap.html">מפת האתר</a></li>
+                                <li><a href="contactUs.html">צור קשר</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>סוגי גבינות</p>
+                            <ul>
+                                <li><a href="hard_cheese.html">קשות</a></li>
+                                <li><a href="#" class="notActive">טריות</a></li>
+                                <li><a href="#" class="notActive">עובש</a></li>
+                                <li><a href="#" class="notActive">רכות</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>מתכונים</p>
+                            <ul>
+                                <li><a href="#" class="notActive">מאפים מתוקים</a></li>
+                                <li><a href="#" class="notActive">עוגות</a></li>
+                                <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                <li><a href="#" class="notActive">קינוח קר</a></li>
+                                <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                <li><a href="stuffed.html">ממולאים</a></li>
+                                <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                <li><a href="#" class="notActive">סנדביצ'ים וממרחים</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>עם אלכוהול</p>
+                            <ul>
+                                <li><a href="#" class="notActive">יין</a></li>
+                                <li><a href="#" class="notActive">ויסקי וסקוטץ'</a></li>
+                                <li><a href="#" class="notActive">בירה</a></li>
+                                <li><a href="#" class="notActive">ברנדי וקוניאק</a></li>
+                                <li><a href="#" class="notActive">רום</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>טיולים ואטרקציות</p>
+                            <ul>
+                                <li><a href="north.html">אזור הצפון</a></li>
+                                <li><a href="#" class="notActive">אזור המרכז</a></li>
+                                <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                <li><a href="#" class="notActive">אזור הדרום</a></li>
+                            </ul>
+                        </li>
+                        <li id="footer_last_li">
+                            <p>פופולרי ביותר</p>
+                            <ul>
+                                <li><a href="#" class="notActive">גבינת ברי</a></li>
+                                <li><a href="#" class="notActive">גבינת אמנטל</a></li>
+                                <li><a href="#" class="notActive">חוות עין כמונים</a></li>
+                                <li><a href="#" class="notActive">מחלבת קדוש</a></li>
+                                <li><a href="#" class="notActive">פטריות ממולאות</a></li>
+                                <li><a href="#" class="notActive">סלט אגסים</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="brown_bottom"></div>  <!--1024 brown bg-->
+        </div>
+    </nav>
+</footer>
+</body>
+</html>

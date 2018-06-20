@@ -1,0 +1,695 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheezone - מפת האתר</title>
+    <meta name="description" content="כאן תוכלו לראות את מפת האתר אשר מכילה את כל העמודים באתר" />
+    <meta name="keywords" content="מפת, האתר, cheezone, צ'יזון, קישורים, מבנה" />
+    <meta name="author" content="ליאור אביאל, אלכסנדר נזין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/myStyle.css"/>
+    <link rel="icon" href="images/home/favicon.png"/>  <!--Title icon/favicon-->
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/scripts.js"></script>
+
+</head>
+<body onload="tab_nav()">
+<header>
+    <div id="wide">
+        <div id="navigation_bar_1024">
+            <div id="navigation_bar_960">
+            <a id="skipnav" href="#container_longer">דלג לתוכן</a>
+                <div id="logo"><a href="index.html"><img id="logo_img" src="images/home/The_LOGO.png" alt="צ'יזון - מבינים בגבינה"></a></div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#"><span>סוגי גבינה</span></a>
+                                <ul>
+                                    <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                    <li><a href="#" class="notActive">רכות</a></li>
+                                    <li><a href="#" class="notActive">טריות</a></li>
+                                    <li><a href="#" class="notActive">עובש</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="recipes.html"><span>מתכונים והמלצות</span></a>
+                                <ul>
+                                    <li>
+                                        <a href="#"><span>ראשונות ועיקריות</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                            <li><a href="stuffed.html">ממולאים</a></li>
+                                            <li><a href="#" class="notActive">סלטים</a></li>
+                                            <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>מאפים וקינוחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">מאפים מלוחים</a></li>
+                                            <li><a href="#" class="notActive">עוגות</a></li>
+                                            <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                            <li><a href="#" class="notActive">קינוח קר</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>סנדביצ'ים וממרחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">סנדביצ'ים</a></li>
+                                            <li><a href="#" class="notActive">ממרחים</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>לצד אלכוהול</span></a>
+                                        <ul id="alc_nav">
+                                            <li><a href="#">יינות</a></li>
+                                            <li><a href="#">וויסקי וסקוטש</a></li>
+                                            <li><a href="#">בירה</a></li>
+                                            <li><a href="#">קוניאק וברנדי</a></li>
+                                            <li><a href="#">רום</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="header_trip">
+                                <a href="attractions.html"><span>טיולים ואטרקציות</span></a>
+                                <ul>
+                                    <li><a href="north.html">איזור הצפון</a></li>
+                                    <li><a href="#" class="notActive">איזור מרכז</a></li>
+                                    <li><a href="#" class="notActive">איזור דרום</a></li>
+                                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">אודות</a></li>
+                            <li><a id="must_page_selected" href="siteMap.html">מפת האתר</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="below_nav_1024">
+        <div id="below_nav_960">
+            <!--960-->
+            <p id="below_nav_text">האתר עם <span>המידע המקיף ביותר</span> בתחום הגבינות</p>
+        </div>
+    </div>
+</header>
+<div id="bread_1024">
+    <div>
+        <nav>
+            <ul id="bread">
+                <li class="bread_crumbs"><a href="index.html">עמוד הבית</a></li>
+                <li class="bread_crumbs">מפת האתר</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<div id="container_longer">
+    <div id="content">
+        <main>
+            <article>
+                <h1>מפת האתר</h1>
+                    <nav>
+                        <ul>
+                            <li id="map_site">
+                                <a class="not_content" href="index.html">דף הבית</a>
+                                <a class="not_content" href="about.html">אודות</a>
+                                <a class="not_content" href="contactUs.html">צור קשר</a>
+                                <a class="not_content" href="siteMap.html">מפת האתר</a>
+                                <ul>
+                                    <li>
+                                        <section>
+                                            <h2>סוגי גבינות</h2>
+                                            <div class="up_category">
+                                                <section>
+                                                    <div class="category">
+                                                        <a href="hard_cheese.html"><h3>גבינות קשות</h3></a>
+                                                        <ul>
+                                                            <li><a href="#" class="notActiveGrey">צ'דר</a></li>
+                                                            <li><a href="#" class="notActiveGrey">גאודה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">גויה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">גראנה פדאנו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">גריב</a></li>
+                                                            <li><a href="manchego.html">מנצ'גו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">פרמז'אנו רג'אנו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">פקורינו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">צ'דר</a></li>
+                                                            <li><a href="#" class="notActiveGrey">סבצ'יה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">אסיאגו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">באופורט</a></li>
+                                                            <li><a href="#" class="notActiveGrey">ברקסוול</a></li>
+                                                            <li><a href="#" class="notActiveGrey">קומטה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">אמנטל</a></li>
+                                                            <li><a href="#" class="notActiveGrey">מימולט</a></li>
+                                                            <li><a href="#" class="notActiveGrey">רידג</a></li>
+                                                            <li><a href="#" class="notActiveGrey">צ'דר</a></li>
+                                                            <li><a href="#" class="notActiveGrey">רונקל</a></li>
+                                                            <li><a href="#" class="notActiveGrey">אידיאזבל</a></li>
+                                                            <li><a href="#" class="notActiveGrey">מאון</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </section>
+                                                <section>
+                                                    <div class="category">
+                                                        <a href="#" class="notActiveGrey"><h3>גבינות טריות</h3></a>
+                                                        <ul>
+                                                            <li><a href="#" class="notActiveGrey">פטה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">מוצרלה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">חלומי</a></li>
+                                                            <li><a href="#" class="notActiveGrey">ריקוטה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">קוטג'</a></li>
+                                                            <li><a href="#" class="notActiveGrey">שמנת</a></li>
+                                                            <li><a href="#" class="notActiveGrey">מסקרפונה</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </section>
+                                                <section>
+                                                    <div class="category">
+                                                        <a href="#" class="notActiveGrey"><h3>גבינות עובש</h3></a>
+                                                        <ul>
+                                                            <li><a href="#" class="notActiveGrey">רוקפור</a></li>
+                                                            <li><a href="#" class="notActiveGrey">קברלס</a></li>
+                                                            <li><a href="#" class="notActiveGrey">אאורה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">פורמה די-אמברט</a></li>
+                                                            <li><a href="#" class="notActiveGrey">רוקפור</a></li>
+                                                            <li><a href="#" class="notActiveGrey">דנית כחולה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">קלמסון</a></li>
+                                                            <li><a href="#" class="notActiveGrey">ולדאון</a></li>
+                                                            <li><a href="#" class="notActiveGrey">סטילטון</a></li>
+                                                            <li><a href="#" class="notActiveGrey">צ'רני</a></li>
+                                                            <li><a href="#" class="notActiveGrey">בלאו דה ברס</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </section>
+                                                <section>
+                                                    <div class="category">
+                                                        <a href="#" class="notActiveGrey"><h3>גבינות רכות</h3></a>
+                                                        <ul>
+                                                            <li><a href="#" class="notActiveGrey">צפתית</a></li>
+                                                            <li><a href="#" class="notActiveGrey">טבורוג</a></li>
+                                                            <li><a href="#" class="notActiveGrey">טראפל בורטה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">דליס דה בורגון</a></li>
+                                                            <li><a href="#" class="notActiveGrey">פונט אלאבקיו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">צ'ביצ'ו דו פויטו</a></li>
+                                                            <li><a href="#" class="notActiveGrey">סיינט אנדרה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">ברי מון סירה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">סטרשייטלה</a></li>
+                                                            <li><a href="#" class="notActiveGrey">לה צ'ברוט</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </section>
+                                    </li>
+                                <li>
+                                    <section>
+                                        <a href="recipes.html"><h2>מתכונים והמלצות</h2></a>
+                                        <ul>
+                                            <li>
+                                                <div class="up_category">
+                                                    <h3 class="h3_out">ראשונות ועיקריות</h3>
+                                                    <section>
+                                                        <ul>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>פסטה וריזוטו</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה ברוטב ארבע גבינות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה ריקוטה וסלק</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פנה פונדו קמבזולה ופלפלים קלויים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פטוצ'יני מוצרלה, ארטישוק וממרח פטריות יער</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">רוטב פסטה מגבינות פרמזן,מוצרלה,רומנו וגבינת פרובולונה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה עם גבינה לבנה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה עם גבינות בתנור</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה גבינת שמנת</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה עם עגבניות שרי ובולגרית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פסטה בטטה תרד וגבינה בולגרית/פטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ריזוטו פטריות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ריזוטו סלק</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ריזוטו לימון</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ריזוטו קישוא</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ריזוטו עגבניות</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="stuffed.html"><h4>ממולאים</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="eggplant_recipe.html">גלילות חציל איטלקיות במילוי גבינות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">שניצל פלפל ממולא</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קישוא ממולא</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עגבניות קלויות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">כרוב ממולא</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">בצלים ממולאים בגבינות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">תפוחי אדמה ממולאים</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>סלטים</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">סלט עלים, ענבים וחלומי</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט אנטיפסטי וגבינת מוצרלה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט ארטישוק, פטריות וברינזה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט עלים, נבטים, אגסים ביין וגבינה כחולה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט סלק וסנט מור</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט עלים, שומר, תמרים ופטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט סלק, אגוזים וגבינת סולוגוני</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט יווני עם גבינת פטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey"> סלט צנוניות מרוקאיות, תרד טרי וגבינת פטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סלט תירס, אבוקדו, עגבניות שרי, כרוב סגול וקוביות בולגרית</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>אנטיפסטי</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי וגבינת עיזים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי וגבינה צפתית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פטריות תחת גבינת עיזים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי וארבע גבינות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי ומתבל שמנת</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי עם גבינת שמנת ושום</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי יווני</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי פלפלים אדומים ופטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אנטיפסטי חצילים ומוצרלה</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="up_category">
+                                                    <section>
+                                                        <h3 class="h3_out">מאפים וקינוחים</h3>
+                                                        <ul>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>מאפים מלוחים</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">מקלות בצק עלים וגאודה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחמניות גבינה ממכרות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחם גרעינים וגבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחם גרעינים וגבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחמניות קוטג' מהירות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחמניות גבינה ושמרים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">לחם שום וקשקבל</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">מתכון קל לקוביות לחם עם גבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">חלת פרמזן בזיליקום</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגיות גבינה מלוחות עם שומשום</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש גבינות ובצל</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש גבינות ובטטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש גבינות ופטריות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש עגבניות צלויות וגבינת עזים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש פטריות עם רוקפור, קונפי שום ואגוזי מלך</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>עוגות</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">קוביות עוגת גבינה ושוקולד צ'יפס</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה לימונית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה עם פקאן ותפוח קוביות עוגת גבינה ופסיפלורה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת שמרים במילוי גבינה ודובדבנים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגות גבינה אישיות בציפוי טופי</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה בציפוי ריבת חלב</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה עם תותים צלויים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה ברולה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה אפויה קטיפתית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה ולוטוס ללא אפייה</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>קישים ופשטידות</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת פטריות וגבינה צהובה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת בצל עם שקדים וגבינות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת תפוחי אדמה עם גבינות ועשבי תיבול</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת גבינות וזיתים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת אטריות וגבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת ברוקולי וגבינות רזות</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת קישואים וגבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">בניצה – פשטידת גבינות בולגרית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת בצל ירוק וגבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פשטידת תפוחי אדמה עם גבינות ועשבי תיבול</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש מוצרלה, אמנטל, צימוקי עגבניות, צנוברים ומרווה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש ריקוטה ופרמזן עם ארטישוק וזיתים שחורים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש גבינות עיזים ובצל מזוגג</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קיש פטה, קשקבל וירקות קלויים</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>קינוח קר</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">טירמיסו עם זביונה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">מקפא אגוזי לוז</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פרפה מסקרפונה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">מוס מסקרפונה ושמנת חמוצה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גבינה בגביע</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קינוח גבינה פירורים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קינוח שכבות קרם גבינה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">גלידת גבינה עם שמנת</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">עוגת גלידה עם ביסקוויטים ופירורי שוקולד</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">שלגון עוגת גבינה עם תותים ולימון</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="up_category">
+                                                    <h3 class="h3_out">סנדוויצים וממרחים</h3>
+                                                    <section>
+                                                        <ul>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>סנדוויצ'ים</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">לחמניה עם רוטב פסטו,גבינת פטה, עגבניות ןבזיליקום</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">טוסט עם חציל קלוי, שמנת ועירית</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ג'בטה עם פלפלים חריפים, גבינה מותכת וטבורוג</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">קנפה עם שרימפס וצ'דר מגורד</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">מיני המבורגזה עם שלושה סוגי חאודה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סנדוויץ' של אמא</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ברוסקטות עם ברי ואגוזים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סנוויצ'וני קרקרים עם רוקפור</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">אינגליש סנק</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">סנדוויץ רוסי</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">כיכר של סנוויץ' עם גבינות חצי קשות</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                            <li>
+                                                                <section>
+                                                                    <div class="category">
+                                                                        <a href="#" class="notActiveGrey"><h4>ממרחים</h4></a>
+                                                                        <ul>
+                                                                            <li><a href="#" class="notActiveGrey">קרם שמנת חריף</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ממרח ירוק של בזיליקום וריקוטה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">תערובת גבינות עובש לקנפה</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">פונדו שוויצרי</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">גבינת אמנטל מגורדת עם שום ומיונז</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">טבורוג עם צימוקים ודובדבנים</a></li>
+                                                                            <li><a href="#" class="notActiveGrey">ממרח בלקני</a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </section>
+                                                            </li>
+                                                        </ul>
+                                                    </section>
+                                                </div>
+                                                <li>
+                                                    <div class="up_category">
+                                                        <h3 class="h3_out">לצד אלכוהול</h3>
+                                                        <section>
+                                                            <ul>
+                                                                <li>
+                                                                    <section>
+                                                                        <div class="category">
+                                                                            <a href="#" class="notActiveGrey"><h4>יינות</h4></a>
+                                                                            <ul>
+                                                                                <li><a href="#" class="notActiveGrey">אדום מתוק/חצי מתוק</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">לבן מתוק/ חצי מתוק</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">אדום יבש/ חצי יבש</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">לבן יבש/חצי יבש</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">שמפניה </a></li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                    </section>
+                                                                </li>
+                                                                <li>
+                                                                    <section>
+                                                                        <div class="category">
+                                                                            <a href="stuffed.html" class="notActiveGrey"><h4>וויסקי וסקוטש</h4></a>
+                                                                            <ul>
+                                                                                <li><a href="#" class="notActiveGrey">מאלט</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">סינל מאלט</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">גריין</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">בלנדר</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">בורבון</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">טנסי</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">שיפון</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">קנדי</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">אירי</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </section>
+                                                                </li>
+                                                                <li>
+                                                                    <section>
+                                                                        <div class="category">
+                                                                            <a href="#" class="notActiveGrey"><h4>בירה</h4></a>
+                                                                            <ul>
+                                                                                <li><a href="#" class="notActiveGrey">ללא אכוהול</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">מחוזקת</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">לא מסוננת</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">לאגר בהיר</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">לאגר כהה</a></li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                    </section>
+                                                                </li>
+                                                                <li>
+                                                                    <section>
+                                                                        <div class="category">
+                                                                            <a href="#" class="notActiveGrey"><h4>קוניאק וברנדי</h4></a>
+                                                                            <ul>
+                                                                                <li><a href="#" class="notActiveGrey">קוניאק</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">ארמניאק</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">גראפה</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">קלבדס</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">פיסקו</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">פלינקה</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">סליבוביץ'</a></li>
+                                                                                <li><a href="#" class="notActiveGrey">צויקה</a></li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                    </section>
+                                                                </li>
+                                                            </ul>
+                                                        </section>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </section>
+                                        <a href="attractions.html"><h2>טיולים ואטרקציות</h2></a>
+                                        <div class="up_category">
+                                            <ul>
+                                                <li>
+                                                    <section>
+                                                        <div class="category">
+                                                            <a href="north.html"><h3>איזור הצפון</h3></a>
+                                                            <ul>
+                                                                <li><a href="#" class="notActiveGrey">החוויה הצ'רקסי</a></li>
+                                                                <li><a href="#" class="notActiveGrey">טבע עז</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חלב אדיר</a></li>
+                                                                <li><a href="#" class="notActiveGrey">המאירי</a></li>
+                                                                <li><a href="#" class="notActiveGrey">ראמה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">רום</a></li>
+                                                                <li><a href="#" class="notActiveGrey">הנוקד</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות חלב עם הרוח</a></li>
+                                                                <li><a href="#" class="notActiveGrey">קדוש</a></li>
+                                                                <li><a href="schwartzman.html">מחלבת שוורצמן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות עין כמונים</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מצפה ימים משק קרמר מי ומו</a></li>
+                                                                <li><a href="#" class="notActiveGrey">שירת רועים</a></li>
+                                                                <li><a href="#" class="notActiveGrey">צאן אל</a></li>
+                                                            </ul>
+                                                            </div>
+                                                    </section>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <div class="category">
+                                                            <a href="#" class="notActiveGrey"><h3>איזור המרכז</h3></a>
+                                                            <ul>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת מרקוביץ - ארץ זבת חלב</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבות גד</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת עברי</a></li>
+                                                                <li><a href="#" class="notActiveGrey">טל טלה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת משק דותן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת אורורה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">דורון מן הטבע מחלבת נחלים</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת משק טל</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת בית יצחק</a></li>
+                                                                <li><a href="#" class="notActiveGrey">משק יעקבס</a></li>
+                                                                <li><a href="#" class="notActiveGrey">נחשון צאן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבנה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת המושבה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת גל</a></li>
+                                                            </ul>
+                                                            </div>
+                                                    </section>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <div class="category">
+                                                            <a href="#" class="notActiveGrey"><h3>איזור הדרום</h3></a>
+                                                            <ul>
+                                                                <li><a href="#" class="notActiveGrey">גבינות הכפר</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת בארי</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת צאלה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">רפמן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות קורנמל</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות נאות</a></li>
+                                                                <li><a href="#" class="notActiveGrey">משק שמואלי</a></li>
+                                                                <li><a href="#" class="notActiveGrey">טנא נגה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">צאן בארותיים</a></li>
+                                                                <li><a href="#" class="notActiveGrey">נאות במדר</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת יטבתה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת לותן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת עזוז</a></li>
+                                                                <li><a href="#" class="notActiveGrey">עפאים</a></li>
+                                                            </ul>
+                                                            </div>
+                                                    </section>
+                                                </li>
+                                                <li>
+                                                    <section>
+                                                        <div class="category">
+                                                            <a href="#" class="notActiveGrey"><h3>ירושליים והסביבה</h3></a>
+                                                            <ul>
+                                                                <li><a href="#" class="notActiveGrey">עיזה פזיזה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">שביל עיזים</a></li>
+                                                                <li><a href="#" class="notActiveGrey">גדישון</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות עיזים הר איתן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">מחלבת הרי יהודה</a></li>
+                                                                <li><a href="#" class="notActiveGrey">חוות אייל</a></li>
+                                                                <li><a href="#" class="notActiveGrey">נחשון צאן</a></li>
+                                                                <li><a href="#" class="notActiveGrey">רועי העמק</a></li>
+                                                            </ul>
+                                                            </div>
+                                                    </section>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </article>
+            </main>
+        </div>
+    </div>
+<footer>
+<nav>
+<div>
+<!--div wrapper, 1024, 250-->
+<div>
+    <!--1024 yellow, 200-->
+    <div>
+        <!--960, 140-->
+        <ul>
+            <li>
+                <p>ראשי</p>
+                <ul>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li><a href="about.html">אודות</a></li>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>סוגי גבינות</p>
+                <ul>
+                    <li><a href="hard_cheese.html">קשות</a></li>
+                    <li><a href="#" class="notActive">טריות</a></li>
+                    <li><a href="#" class="notActive">עובש</a></li>
+                    <li><a href="#" class="notActive">רכות</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>מתכונים</p>
+                <ul>
+                    <li><a href="#" class="notActive">מאפים מתוקים</a></li>
+                    <li><a href="#" class="notActive">עוגות</a></li>
+                    <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                    <li><a href="#" class="notActive">קינוח קר</a></li>
+                    <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                    <li><a href="stuffed.html">ממולאים</a></li>
+                    <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                    <li><a href="#" class="notActive">סנדביצ'ים וממרחים</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>עם אלכוהול</p>
+                <ul>
+                    <li><a href="#" class="notActive">יין</a></li>
+                    <li><a href="#" class="notActive">ויסקי וסקוטץ'</a></li>
+                    <li><a href="#" class="notActive">בירה</a></li>
+                    <li><a href="#" class="notActive">ברנדי וקוניאק</a></li>
+                    <li><a href="#" class="notActive">רום</a></li>
+                </ul>
+            </li>
+            <li>
+                <p>טיולים ואטרקציות</p>
+                <ul>
+                    <li><a href="north.html">אזור הצפון</a></li>
+                    <li><a href="#" class="notActive">אזור המרכז</a></li>
+                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                    <li><a href="#" class="notActive">אזור הדרום</a></li>
+                </ul>
+            </li>
+            <li id="footer_last_li">
+                <p>פופולרי ביותר</p>
+                <ul>
+                    <li><a href="#" class="notActive">גבינת ברי</a></li>
+                    <li><a href="#" class="notActive">גבינת אמנטל</a></li>
+                    <li><a href="#" class="notActive">חוות עין כמונים</a></li>
+                    <li><a href="#" class="notActive">מחלבת קדוש</a></li>
+                    <li><a href="#" class="notActive">פטריות ממולאות</a></li>
+                    <li><a href="#" class="notActive">סלט אגסים</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="brown_bottom"></div>  <!--1024 brown bg-->
+</div>
+</nav>
+</footer>
+</body>
+</html>

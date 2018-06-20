@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Cheezone - עמוד הבית</title>
+    <meta name="description" content="בהמקום היחיד בו תוכלו לגלות עולם שלם של גבינות מכל הסוגים והצבעים, אטרקציות וטיולים בניחוח גבינה וכמובן מתכונים ייחודיים על טהרת הגבינה." />
+    <meta name="keywords" content="גבינה, גבינות, קשה, קשות, רכה, רכות, עובש, טרייה, טריות, טיול, טיולים, אטרקציה, אטרקציות, מתכון, מתכונים, דף, עמוד, בית" />
+    <meta name="author" content="ליאור אביאל, אלכסנדר נזין" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/myStyle.css"/>
+    <link rel="icon" href="images/home/favicon.png" type="image/gif" sizes="any" />  <!--need to change pic-->
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/scripts.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
+    </style>
+</head>
+<body onload="tab_nav()">
+<header>
+    <div id="wide">  <!--1024-->
+        <div id="navigation_bar_1024">  <!--1024 - content background-->
+            <div id="navigation_bar_960">  <!--960 - content background-->
+                <a id="skipnav" href="#container">דלג לתוכן</a>
+                <div id="logo"><a href="index.html"><h1><img id="logo_img" src="images/home/The_LOGO.png" alt="צ'יזון - מבינים בגבינה"></h1></a></div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#" role="menuitem"><span>סוגי גבינה</span></a>
+                                <ul>
+                                    <li><a href="hard_cheese.html">גבינות קשות</a></li>
+                                    <li><a href="#" class="notActive">רכות</a></li>
+                                    <li><a href="#" class="notActive">טריות</a></li>
+                                    <li><a href="#" class="notActive">עובש</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="recipes.html"><span>מתכונים והמלצות</span></a>
+                                <ul>
+                                    <li><a href="#" role="menuitem"><span>ראשונות ועיקריות</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                            <li><a href="stuffed.html">ממולאים</a></li>
+                                            <li><a href="#" class="notActive">סלטים</a></li>
+                                            <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" role="menuitem"><span>מאפים וקינוחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive">מאפים מלוחים</a></li>
+                                            <li><a href="#" class="notActive">עוגות</a></li>
+                                            <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                            <li><a href="#" class="notActive">קינוח קר</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" role="menuitem"><span>סנדביצ'ים וממרחים</span></a>
+                                        <ul>
+                                            <li><a href="#" class="notActive" role="menuitem">סנדביצ'ים</a></li>
+                                            <li><a href="#" class="notActive" role="menuitem">ממרחים</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#" role="menuitem"><span>לצד אלכוהול</span></a>
+                                        <ul id="alc_nav">
+                                            <li><a href="#" role="menuitem">יינות</a></li>
+                                            <li><a href="#" role="menuitem">וויסקי וסקוטש</a></li>
+                                            <li><a href="#" role="menuitem">בירה</a></li>
+                                            <li><a href="#" role="menuitem">קוניאק וברנדי</a></li>
+                                            <li><a href="#" role="menuitem">רום</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="header_trip"><a href="attractions.html" role="menuitem"><span>טיולים ואטרקציות</span></a>
+                                <ul>
+                                    <li><a href="north.html">איזור הצפון</a></li>
+                                    <li><a href="#" class="notActive">איזור מרכז</a></li>
+                                    <li><a href="#" class="notActive">איזור דרום</a></li>
+                                    <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">אודות</a></li>
+                            <li><a href="siteMap.html">מפת האתר</a></li>
+                            <li><a href="contactUs.html">צור קשר</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="below_nav_1024">  <!--1024, yellow background-->
+        <div id="below_nav_960">  <!--960-->
+            <p id="below_nav_text">האתר עם <span>המידע המקיף ביותר</span> בתחום הגבינות</p>
+        </div>
+    </div>
+</header>
+<div id="container">  <!--996-->
+    <div id="content">  <!--960-->
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <div class="head" id="cook_head" role="heading"></div>  <!--css image-->
+                        <div class="brown_border_2">
+                            <a href="recipes.html">
+                                <div>
+                                    <section>
+                                        <div class="h3_wrap">
+                                            <h3>מתכונים והמלצות</h3>
+                                        </div>
+                                        <div id="cook_img" class="small_poster_home"><!--image css-->
+                                            <div class="brown_border_hover_2">
+                                                <p>
+                                                    אוסף גדול של מתכוני גבינה ייחודיים<br/>
+                                                    המלצות מעניינות בתחום<br/>
+                                                    צורות הגשה
+                                                </p>
+                                            </div>  <!--black transparent background, revealed on hover-->
+                                        </div>
+                                    </section>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="head" id="know_head" role="heading"></div>  <!--css image-->
+                        <div id="container_size">  <!--4 elements container-->
+                            <ul>
+                                <li id="home_divide1">  <!--css bg img-->
+                                    <div class="brown_border_2 small_home">
+                                        <a href="hard_cheese.html">
+                                            <div>
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>גבינות קשות</h3>
+                                                    </div>
+                                                    <div  id="know1" class="smaller_poster_home"><!--image css-->
+                                                        <div class="brown_border_hover_2_small">
+                                                            <p class="know_p">
+                                                                <br/>
+                                                                הגבינה האמיתית
+                                                            </p>
+                                                        </div>  <!--black transparent background, revealed on hover-->
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li id="home_divide2">  <!--css bg img-->
+                                    <div class="brown_border_2 small_home">
+                                        <a href="#" class="notActive">
+                                            <div>
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>גבינות טריות</h3>
+                                                    </div>
+                                                    <div  id="know2" class="smaller_poster_home"><!--image css-->
+                                                        <div class="brown_border_hover_2_small">
+                                                            <p class="know_p">
+                                                                <br/>
+                                                                הצעירות והבריאות שבגבינה
+                                                            </p>
+                                                        </div>  <!--black transparent background, revealed on hover-->
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li id="home_divide3">  <!--css bg img-->
+                                    <div class="brown_border_2 small_home">
+                                        <a href="#" class="notActive">
+                                            <div>
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>רכות עובש</h3>
+                                                    </div>
+                                                    <div  id="know3" class="smaller_poster_home"><!--image css-->
+                                                        <div class="brown_border_hover_2_small">
+                                                            <p class="know_p">
+                                                                <br/>
+                                                                אולי לא נראות טוב<br/>
+                                                                אבל הטעם משגע
+                                                            </p>
+                                                        </div>  <!--black transparent background, revealed on hover-->
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="brown_border_2 small_home">
+                                        <a href="#" class="notActive">
+                                            <div>
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>גבינות רכות</h3>
+                                                    </div>
+                                                    <div id="know4" class="smaller_poster_home"><!--image css-->
+                                                        <div class="brown_border_hover_2_small">
+                                                            <p class="know_p">
+                                                            <br/>
+                                                            רכות, עם מרקם<br/>
+                                                            עדין בכל ביס
+                                                            </p>
+                                                        </div>  <!--black transparent background, revealed on hover-->
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="head" id="travel_head"></h3>  <!--css image-->
+                        <div class="brown_border_2">
+                            <a href="attractions.html">
+                                <div>
+                                    <section>
+                                        <div class="h3_wrap">
+                                            <h3>טיולים ואטרקציות</h3>
+                                        </div>
+                                        <div id="travel_img" class="small_poster_home"><!--image css-->
+                                            <div class="brown_border_hover_2">
+                                                <p>
+                                                    כל המחלבות בארץ הפתוחות לביקור<br/>
+                                                    סדנאות וסיורים<br/>
+                                                    מסעדות מומלצות
+                                                </p>
+                                            </div>  <!--black transparent background, revealed on hover-->
+                                        </div>
+                                    </section>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li id="head_nav_li">
+                        <section>
+                            <h3 class="head" id="new_head" aria-label="חדש ומעניין" role="heading"></h3>  <!--css image-->
+                            <div>
+                                <ul>
+                                    <li>
+                                        <a href="eggplant_recipe.html">
+                                            <div class="new_block">  <!--white bg, width: 458+2px-border-->
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>מתכון היום</h3>
+                                                    </div>
+                                                    <div class="below_h3">  <!--width:458 height:176-->
+                                                        <div class="below_h3_right">  <!--width:239-->
+                                                            <div class="new_block_description">
+                                                                <p>גלילות חציל איטלקיות <br/>במילוי גבינות</p>
+                                                            </div>
+                                                            <ul>
+                                                                <li class="home_icon_size" data-icon="new_img_hover_1" aria-label="רמת קושי: קל">  <!--css icon-->
+                                                                    <div id="home_new_icon_1_1"></div>
+                                                                    <p>רמת קושי</p>
+                                                                </li>
+                                                                <li class="home_icon_size" data-icon="new_img_hover_2" aria-label="זמן הכנה: 60 דקות"> <!--css icon-->
+                                                                    <div id="home_new_icon_1_2"></div>
+                                                                    <p>זמן הכנה</p>
+                                                                </li>
+                                                                <li class="home_icon_size" data-icon="new_img_hover_3" aria-label="כמות מנות: 13 עד 14 גלילות חציל">  <!--css icon-->
+                                                                    <div id="home_new_icon_1_3"></div>
+                                                                    <p>כמות מנות</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="new_img_1">  <!--219 176, bg image-->
+                                                        </div>
+                                                        <div class="new_img_hover" id="new_img_hover_1"><p>קל</p></div>
+                                                        <div class="new_img_hover" id="new_img_hover_2"><p>60 דקות</p></div>
+                                                        <div class="new_img_hover" id="new_img_hover_3"><p>13-14 גלילות</p></div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="schwartzman.html">
+                                            <div class="new_block">  <!--white bg, width: 458+2px-border-->
+                                                <section>
+                                                    <div class="h3_wrap">
+                                                        <h3>מקום מומלץ לביקור</h3>
+                                                    </div>
+                                                    <div class="below_h3">  <!--width:458 height:176-->
+                                                        <div class="below_h3_right">  <!--width:239-->
+                                                            <div class="new_block_description">
+                                                                <p>מחלבת שוורצמן</p>
+                                                            </div>
+                                                            <ul>
+                                                                <li class="home_icon_size" data-icon="new_map" aria-label="מיקום: המושבה בת שלמה הישנה">  <!--css icon-->
+                                                                    <div id="home_new_icon_2_1"></div>
+                                                                    <p>מיקום</p>
+                                                                </li>
+                                                                <li class="home_icon_size" data-icon="new_img_hover_5" aria-label=" שעות ביקור: ימים א' עד ה', מהשעה 8:00 עד 20:00, כל השנה ">  <!--css icon-->
+                                                                    <div id="home_new_icon_2_2"></div>
+                                                                    <p>שעות</p>
+                                                                </li>
+                                                                <li class="home_icon_size" data-icon="new_img_hover_6" aria-label="מוזיאוןאטרקציות: מסעדה, מוזיאון, חנות">  <!--css icon-->
+                                                                    <div id="home_new_icon_2_3"></div>
+                                                                    <p>אטרקציות</p>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div id="new_img_2">  <!--219 176, bg image-->
+                                                        </div>
+                                                        <div class="new_img_hover_2" id="new_map"></div>
+                                                        <div class="new_img_hover_2" id="new_img_hover_5"><p>כל השנה<br/>8:00 - 20:00<br/>א - ש</p></div>
+                                                        <div class="new_img_hover_2" id="new_img_hover_6"><p>חנות<br/>מוזיאון<br/>מסעדה</p></div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li id="new_absolute">  <!--white bg-->
+                                        <a href="manchego.html">
+                                            <section>
+                                                <div class="h3_wrap">
+                                                    <h3>גבינה מובחרת</h3>
+                                                </div>
+                                                <div id="below_h3_abs">  <!--width:458 height:413-->
+                                                    <div class="below_h3_right">  <!--width:458-->
+                                                        <div id="new_block_description_abs">
+                                                            <h4>מנצ'גו</h4>
+                                                            <span>Manchego</span>
+                                                        </div>
+                                                        <ul>
+                                                            <li class="home_icon_size_abs" data-icon="new_img_hover_7">
+                                                                <!--<div class="new_img_hover_3"><p>קשה - חצי קשה</p></div>-->
+                                                                <div class="abs_icon" id="home_new_icon_3_1"></div>  <!--css icon-->
+                                                                <p>סוג</p>
+                                                            </li>
+                                                            <li class="home_icon_size_abs" data-icon="new_img_hover_8">
+                                                                <!--<div class="new_img_hover_3"><p>כבשים</p></div>-->
+                                                                <div class="abs_icon" id="home_new_icon_3_2"></div>  <!--css icon-->
+                                                                <p>חלב</p>
+                                                            </li>
+                                                            <li class="home_icon_size_abs" data-icon="new_img_hover_9">
+                                                                <!--<div class="new_img_hover_3"><p>30% - 50%</p></div>-->
+                                                                <div class="abs_icon" id="home_new_icon_3_3"></div>  <!--css icon-->
+                                                                <p>ארץ מקור</p>
+                                                            </li>
+                                                            <li class="home_icon_size_abs" data-icon="new_img_hover_10">
+                                                                <!--<div class="new_img_hover_3"><p>ספרד</p></div>-->
+                                                                <div class="abs_icon" id="home_new_icon_3_4"></div>  <!--css icon-->
+                                                                <p>שומן</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div id="new_img_3">
+                                                    </div>  <!--219 448, bg image-->
+                                                    <div class="new_img_hover_3" id="new_img_hover_7"><p>קשה - חצי קשה</p></div>
+                                                    <div class="new_img_hover_3" id="new_img_hover_8"><p>כבשים</p></div>
+                                                    <div class="new_img_hover_3" id="new_img_hover_9"><p>30% - 50%</p></div>
+                                                    <div class="new_img_hover_3" id="new_img_hover_10"><p>ספרד</p></div>
+                                                </div>
+                                            </section>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+    </div>
+</div>
+<footer>
+    <nav>
+        <div>  <!--div wrapper, 1024, 250-->
+            <div>  <!--1024 yellow, 200-->
+                <div>  <!--960, 140-->
+                    <ul>
+                        <li>
+                            <p>ראשי</p>
+                            <ul>
+                                <li><a href="index.html">דף הבית</a></li>
+                                <li><a href="about.html">אודות</a></li>
+                                <li><a href="siteMap.html">מפת האתר</a></li>
+                                <li><a href="contactUs.html">צור קשר</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>סוגי גבינות</p>
+                            <ul>
+                                <li><a href="hard_cheese.html">קשות</a></li>
+                                <li><a href="#" class="notActive">טריות</a></li>
+                                <li><a href="#" class="notActive">עובש</a></li>
+                                <li><a href="#" class="notActive">רכות</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>מתכונים</p>
+                            <ul>
+                                <li><a href="#" class="notActive">מאפים מתוקים</a></li>
+                                <li><a href="#" class="notActive">עוגות</a></li>
+                                <li><a href="#" class="notActive">קישים ופשטידות</a></li>
+                                <li><a href="#" class="notActive">קינוח קר</a></li>
+                                <li><a href="#" class="notActive">פסטה וריזוטו</a></li>
+                                <li><a href="stuffed.html">ממולאים</a></li>
+                                <li><a href="#" class="notActive">אנטיפסטי</a></li>
+                                <li><a href="#" class="notActive">סנדביצ'ים וממרחים</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>עם אלכוהול</p>
+                            <ul>
+                                <li><a href="#" class="notActive">יין</a></li>
+                                <li><a href="#" class="notActive">ויסקי וסקוטץ'</a></li>
+                                <li><a href="#" class="notActive">בירה</a></li>
+                                <li><a href="#" class="notActive">ברנדי וקוניאק</a></li>
+                                <li><a href="#" class="notActive">רום</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>טיולים ואטרקציות</p>
+                            <ul>
+                                <li><a href="north.html">אזור הצפון</a></li>
+                                <li><a href="#" class="notActive">אזור המרכז</a></li>
+                                <li><a href="#" class="notActive">ירושלים והסביבה</a></li>
+                                <li><a href="#" class="notActive">אזור הדרום</a></li>
+                            </ul>
+                        </li>
+                        <li id="footer_last_li">
+                            <p>פופולרי ביותר</p>
+                            <ul>
+                                <li><a href="#" class="notActive">גבינת ברי</a></li>
+                                <li><a href="#" class="notActive">גבינת אמנטל</a></li>
+                                <li><a href="#" class="notActive">חוות עין כמונים</a></li>
+                                <li><a href="#" class="notActive">מחלבת קדוש</a></li>
+                                <li><a href="#" class="notActive">פטריות ממולאות</a></li>
+                                <li><a href="#" class="notActive">סלט אגסים</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="brown_bottom"></div>  <!--1024 brown bg-->
+        </div>
+    </nav>
+</footer>
+</body>
+</html>

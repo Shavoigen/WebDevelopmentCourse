@@ -1451,6 +1451,7 @@ video,#recipe_fin_dish{
     height: 40px;
 }
 #pin1{
+    background-size: 25px 37px;
     left: 342px;
     top: 67px;
 }

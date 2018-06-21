@@ -1015,7 +1015,7 @@ video,#recipe_fin_dish{
 #hard_c_img1{
     height: 310px;
     width: 938px;
-    background: url("../images/hard/firm.jpg") no-repeat 0 40%;
+    background: url("./images/hard/firm.jpg") no-repeat 0 40%;
     background-size: 938px auto;
     position: relative;
 }

@@ -732,6 +732,11 @@ aside{
     font-family: Rubik, sans-serif;
     color: rgb(67, 35, 22);
 }
+#ingredients li{
+    font-family: Rubik, sans-serif;
+    color: rgb(67, 35, 22);
+    font-weight: normal;
+}
 .bread_crumbs:after{
     content: " >";
 }

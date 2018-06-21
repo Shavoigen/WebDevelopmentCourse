@@ -727,7 +727,7 @@ aside{
 .bread_crumbs a{
     color:black;
 }
-.bread_crumbs, .bread_crumbs a, #ingredients, label {
+.bread_crumbs, .bread_crumbs a, #ingredients li,, #ingredients li, label {
     display: inline-block;
     font-family: Rubik, sans-serif;
     color: rgb(67, 35, 22);

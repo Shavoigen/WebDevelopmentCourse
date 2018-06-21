@@ -1,6 +1,9 @@
-
 @font-face {
-    url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
+    src: url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
+}
+@font-face {
+    font-family: "Dorian CLM";
+    src: local("Dorian CLM");
 }
 body{
     direction: rtl;

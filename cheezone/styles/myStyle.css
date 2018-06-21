@@ -1,9 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: Rubik, sans-serif;
     /*src: url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew'); */
     src: url('../fonts/rubik/Rubik-Regular.ttf');
     src: url('../fonts/rubik/Rubik-Bold.ttf');
-}
+} */
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500&subset=hebrew');
 @font-face {
     font-family: "Dorian CLM";
     src: url('../fonts/dorian/dorianclm-book-webfont.ttf');

@@ -733,7 +733,7 @@ aside{
 .bread_crumbs a{
     color:black;
 }
-.bread_crumbs{
+.bread_crumbs, #form{
     display: inline-block;
     font-family: Rubik, sans-serif;
     color: rgb(67, 35, 22);

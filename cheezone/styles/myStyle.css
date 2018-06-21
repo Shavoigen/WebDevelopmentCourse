@@ -1,9 +1,3 @@
-/* @font-face {
-    font-family: Rubik, sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Rubik&subset=hebrew');
-    src: url('../fonts/rubik/Rubik-Regular.ttf');
-    src: url('../fonts/rubik/Rubik-Bold.ttf');
-} */
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,500&subset=hebrew');
 @font-face {
     font-family: "Dorian CLM";
@@ -32,7 +26,7 @@ body{
 }
 #logo{
     position:absolute;
-    right: 4%;/*to change*/
+    right: 4%;
     top: 0;
 }
 
@@ -733,7 +727,7 @@ aside{
 .bread_crumbs a{
     color:black;
 }
-.bread_crumbs, #form{
+.bread_crumbs, label{
     display: inline-block;
     font-family: Rubik, sans-serif;
     color: rgb(67, 35, 22);
